@@ -200,7 +200,7 @@ if __name__ == '__main__':
                 else:
                     print("à la prochaine pour l'encg")
     elif x == 0:
-        print("\033[1;36mError please retry tht process")
+        print("\033[1;36mGood Bye")
         return0
     if x!= 0 and x != 1 and x != 2 and x != 3 and x != 4 and x != 5:
         print("\033[1;36mError please retry tht process")
