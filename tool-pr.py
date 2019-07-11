@@ -1,4 +1,5 @@
 if __name__ == '__main__':
+    import sys
     print('''
    \033[1;33m###    ##    ## ##     ##    ###    ##    ## 
   ## ##    ##  ##  ###   ###   ## ##   ###   ## 
@@ -35,11 +36,11 @@ if __name__ == '__main__':
         print("\033[34;1m[2]\033[1;32m:\033[35;1mSMA     \033[34;1m[4]\033[1;32m:\033[35;1mSVT")
         y = int(input("number of your branche:"))
         if y == 0:
-            print("\033[1;36mError please retry tht process")
-            return0
+            print("\033[1;36mError please retry the process")
+            sys.exit()
         if y != 0 and y != 1 and y != 2 and y != 3 and y != 4 and y != 5:
             print("\033[1;36mError please retry tht process")
-            return0
+            sys.exit()
             print("088\[1;29m")
         else:
             print('''\033[34;1m=============================================== \033[34;1m''')
@@ -201,10 +202,10 @@ if __name__ == '__main__':
                     print("à la prochaine pour l'encg")
     elif x == 0:
         print("\033[1;36mGood Bye")
-        return0
+        sys.exit()
     if x!= 0 and x != 1 and x != 2 and x != 3 and x != 4 and x != 5:
         print("\033[1;36mError please retry tht process")
-        return0
+        sys.exit()
          # 1bac éxaman réjonnal
     elif x == 1 or x == 2 or x == 3 or x == 4:
      print('''\033[34;1m=============================================== \033[34;1m''')
