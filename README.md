@@ -1,5 +1,5 @@
 # why tool-pr ?
-this tool it's for the people who want to get closer to their point and see their future
+this tool it's for the people who want to get closer to their goals and see their future
 # commend for linux & termux :
  $pkg update
  $pkg upgraded
