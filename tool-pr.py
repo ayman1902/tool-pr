@@ -22,7 +22,7 @@ if __name__ == '__main__':
 \033[1;36m|  \033[34;1m   [ DWM FOR LIFE ]  [ HK-G ]    [ TM78 ] \033[34;1m \033[1;36m |  
 \033[1;36m|==============================================| ''')
     print("\033[1;31mthis tool it's for the people who want to\033[1;31m ")
-    print("\033[1;31mget closer to their point and see their future\033[1;31m")
+    print("\033[1;31mget closer to their goals and see their future\033[1;31m")
     print("\033[1;32mnow you are in 1bac\033[1;32m")
     print("\033[34;1m[1]\033[1;32m:\033[35;1mSMB     \033[34;1m[3]\033[1;32m:\033[35;1mPC")
     print("\033[34;1m[2]\033[1;32m:\033[35;1mSMA     \033[34;1m[4]\033[1;32m:\033[35;1mSVT")
