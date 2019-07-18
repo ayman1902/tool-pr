@@ -16,25 +16,26 @@ if __name__ == '__main__':
 ##     ## ##  ##  ## ## ### ## 
 ##     ## ##  ##  ## ##     ## 
 ##     ## ##  ##  ## ##     ## 
-########   ###  ###  ##     ## \033[34;1m[0]\033[1;32m:\033[35;1mEXIT  
+########   ###  ###  ##     ## \033[34;1m[0]\033[1;32m:\033[35;1m EXIT  
 \033[1;36m|==============================================\033[1;36m| 
 \033[1;36m|    \033[1;32m check it my facebook :::: \033[35;1m Ayman Belhaj \033[1;36m | 
 \033[1;36m|  \033[34;1m   [ DWM FOR LIFE ]  [ HK-G ]    [ TM78 ] \033[34;1m \033[1;36m |  
 \033[1;36m|==============================================| ''')
     print("\033[1;31mthis tool it's for the people who want to\033[1;31m ")
-    print("\033[1;31mget closer to their goals and see their future\033[1;31m")
+    print("\033[1;31mget closer to their point and see their future\033[1;31m")
     print("\033[1;32mnow you are in 1bac\033[1;32m")
     print("\033[34;1m[1]\033[1;32m:\033[35;1mSMB     \033[34;1m[3]\033[1;32m:\033[35;1mPC")
     print("\033[34;1m[2]\033[1;32m:\033[35;1mSMA     \033[34;1m[4]\033[1;32m:\033[35;1mSVT")
-    print("\033[34;1m[5]\033[1;32m:\033[35;1m I am in 2bac")
-    x = int(input("number of your branche:"))
+    print("\033[34;1m[5]\033[1;32m:\033[35;1mI am in 2bac")
+    x = int(input("choose your branch:"))
     #2BAC éxaman nationnal
     if x == 5:
         moyen_de_rejional0 = float(input("your note of rejionnal exam:"))
+        moyen_des_semestres = float(input("your note of semesters:"))
         print("\033[1;32mnow you are in 2bac\033[1;32m")
         print("\033[34;1m[1]\033[1;32m:\033[35;1mSMB     \033[34;1m[3]\033[1;32m:\033[35;1mPC")
         print("\033[34;1m[2]\033[1;32m:\033[35;1mSMA     \033[34;1m[4]\033[1;32m:\033[35;1mSVT")
-        y = int(input("number of your branche:"))
+        y = int(input("choose your branche:"))
         if y == 0:
             print("\033[1;36mError please retry the process")
             sys.exit()
@@ -56,8 +57,10 @@ if __name__ == '__main__':
             print((maths / 9), (pc / 7), (si / 3), (philo / 2), (anglais / 2))
             print("\033[1;33mton note d'éxaman nationnale est " + str(moyen_de_nationnale))
             # la moyen général pour entrer à une classs)
+            moyen_géneral_re = ((moyen_de_rejional0 * 25) + (moyen_des_semestres * 25) + (moyen_de_nationnale * 50))/100
             moyen_géneral1 = (moyen_de_rejional0 + (moyen_de_nationnale * 3)) / 4
-            print("\033[1;33mton moyen géneral est " + str(moyen_géneral1))
+            print("\033[1;33mton moyen générale est " + str(moyen_géneral_re))
+            print("\033[1;33mton moyen d'acceptabilité dans les écoles est " + str(moyen_géneral1))
         elif y == 2:
             # 2bac éxaman nationnal SMA
             print('''\033[1;36m''')
@@ -67,11 +70,13 @@ if __name__ == '__main__':
             philo = (float(input("note de philo:")) * 2)
             anglais = (float(input("note d'anglais:")) * 2)
             moyen_de_nationnale = (maths + pc + svt + philo + anglais) / 23
-            print((maths / 9), (pc / 7), (svt / 5), (philo / 2), (anglais / 2))
+            print((maths / 9), (pc / 7), (svt / 3), (philo / 2), (anglais / 2))
             print("\033[1;33mton moyen d'éxaman nationnal est " + str(moyen_de_nationnale))
             # la moyen général pour entrer à une classs)
+            moyen_géneral_re = ((moyen_de_rejional0 * 25) + (moyen_des_semestres * 25) + ( moyen_de_nationnale * 50)) / 100
             moyen_géneral1 = (moyen_de_rejional0 + (moyen_de_nationnale * 3)) / 4
-            print("\033[1;33mton moyen géneral est " + str(moyen_géneral1))
+            print("\033[1;33mton moyen générale est " + str(moyen_géneral_re))
+            print("\033[1;33mton moyen d'acceptabilité dans les écoles est " + str(moyen_géneral1))
             # les seuil des écoles pour sm
         ENSA = 12
         ENCG = 14.5
@@ -107,6 +112,9 @@ if __name__ == '__main__':
                 print("tu es accepter dans l'encg")
             else:
                 print("à la prochaine pour l'encg")
+            print("NB: les seuil par rapport à l'anné 2018")
+            print("Good Bye")
+            sys.exit()
         elif y == 3:
             # 2bac éxaman nationnal pc
             print('''\033[1;36m''')
@@ -119,8 +127,10 @@ if __name__ == '__main__':
             print((maths / 7), (pc / 7), (svt / 5), (philo / 2), (anglais / 2))
             print("\033[1;33mton moyen d'éxaman nationnal est " + str(moyen_de_nationnale))
             # la moyen général pour entrer à une classs)
+            moyen_géneral_re = ((moyen_de_rejional0 * 25) + (moyen_des_semestres * 25) + ( moyen_de_nationnale * 50)) / 100
             moyen_géneral2 = (moyen_de_rejional0 + (moyen_de_nationnale * 3)) / 4
-            print("\033[1;33mton moyen géneral est " + str(moyen_géneral2))
+            print("\033[1;33mton moyen générale est " + str(moyen_géneral_re))
+            print("\033[1;33mton moyen d'acceptabilité dans les écoles est " + str(moyen_géneral2))
             # les seuil des écoles pour spc
         ENSA = 15.4
         ENCG = 15.5
@@ -156,6 +166,9 @@ if __name__ == '__main__':
                 print("tu es accepter dans l'encg")
             else:
                 print("à la prochaine pour l'encg")
+            print("NB: les seuil par rapport à l'anné 2018")
+            print("Good Bye")
+            sys.exit()
         elif y == 4:
             # 2bac éxaman nationnal SVT
             print('''\033[1;36m''')
@@ -168,9 +181,11 @@ if __name__ == '__main__':
             print((maths / 7), (pc / 5), (svt / 7), (philo / 2), (anglais / 2))
             print("\033[1;33mton moyen d'éxaman nationnal est " + str(moyen_de_nationnale))
             # la moyen général pour entrer à une classs)
+            moyen_géneral_re = ((moyen_de_rejional0 * 25) + (moyen_des_semestres * 25) + ( moyen_de_nationnale * 50)) / 100
             moyen_géneral3 = (moyen_de_rejional0 + (moyen_de_nationnale * 3)) / 4
-            print("\033[1;33mton moyen géneral est " + str(moyen_géneral3))
             # les seuil des écoles pour spc
+            print("\033[1;33mton moyen générale est " + str(moyen_géneral_re))
+            print("\033[1;33mton moyen d'acceptabilité dans les écoles est " + str(moyen_géneral3))
             ENSA = 16.5
             ENCG = 15.6
             ENSAM = 16.80
@@ -180,6 +195,10 @@ if __name__ == '__main__':
                 # acceptabiliter pour les écoles
                 print('''\033[35;1m=============================================== \033[35;1m''')
                 print('''\033[34;1m''')
+                if moyen_géneral3 >= ingénieurie:
+                    print("tu es accepter dans l'ingénieurie")
+                else:
+                    print("à la prochaine pour l'ingénieurie")
                 if moyen_géneral3 >= MEDECIN:
                     print("tu es accepter dans la médecine")
                 else:
@@ -200,6 +219,9 @@ if __name__ == '__main__':
                     print("tu es accepter dans l'encg")
                 else:
                     print("à la prochaine pour l'encg")
+                print("NB: les seuil par rapport à l'anné 2018")
+                print("Good Bye")
+                sys.exit()
     elif x == 0:
         print("\033[1;36mGood Bye")
         sys.exit()
@@ -217,6 +239,7 @@ if __name__ == '__main__':
      moyen_de_rejional = (francais + arabe + eis + hg) / 5
      print((francais / 2), arabe, eis, hg)
      print("\033[1;33mton note d'éxaman réjonnal est " + str(moyen_de_rejional))
+     moyen_des_semestres = float(input("your note of semesters:"))
      print('''\033[1;31m=============================================== \033[1;31m''')
 if x == 1:
     # 2bac éxaman nationnal SMB
@@ -228,10 +251,11 @@ if x == 1:
     anglais = (float(input("note d'anglais:")) * 2)
     moyen_de_nationnale = (maths + pc + si + philo + anglais) / 23
     print((maths / 9), (pc / 7), (si / 3), (philo / 2), (anglais / 2))
-    print("\033[1;33mton note d'éxaman nationnale est " + str(moyen_de_nationnale))
     # la moyen général pour entrer à une classs)
+    moyen_géneral_re = ((moyen_de_rejional * 25) + (moyen_des_semestres * 25) + (moyen_de_nationnale * 50)) / 100
     moyen_géneral1 = (moyen_de_rejional + (moyen_de_nationnale * 3)) / 4
-    print("\033[1;33mton moyen géneral est " + str(moyen_géneral1))
+    print("\033[1;33mton moyen générale est " + str(moyen_géneral_re))
+    print("\033[1;33mton moyen d'acceptabilité dans les écoles est " + str(moyen_géneral1))
 elif x == 2:
     # 2bac éxaman nationnal SMA
     print('''\033[1;36m''')
@@ -241,11 +265,13 @@ elif x == 2:
     philo = (float(input("note de philo:")) * 2)
     anglais = (float(input("note d'anglais:")) * 2)
     moyen_de_nationnale = (maths + pc + svt + philo + anglais) / 23
-    print((maths / 9), (pc / 7), (svt / 5), (philo / 2), (anglais / 2))
+    print((maths / 9), (pc / 7), (svt / 3), (philo / 2), (anglais / 2))
     print("\033[1;33mton moyen d'éxaman nationnal est " + str(moyen_de_nationnale))
-    # la moyen général pour entrer à une classs)
+    # la moyen général pour entrer à une classs
+    moyen_géneral_re = ((moyen_de_rejional * 25) + (moyen_des_semestres * 25) + (moyen_de_nationnale * 50)) / 100
     moyen_géneral1 = (moyen_de_rejional + (moyen_de_nationnale * 3)) / 4
-    print("\033[1;33mton moyen géneral est " + str(moyen_géneral1))
+    print("\033[1;33mton moyen générale est " + str(moyen_géneral_re))
+    print("\033[1;33mton moyen d'acceptabilité dans les écoles est " + str(moyen_géneral1))
     #les seuil des écoles pour sm
 ENSA = 12
 ENCG = 14.5
@@ -281,6 +307,9 @@ if x == 1 or x == 2:
         print("tu es accepter dans l'encg")
     else:
         print("à la prochaine pour l'encg")
+    print("NB: les seuil par rapport à l'anné 2018")
+    print("Good Bye")
+    sys.exit()
 elif x == 3:
     # 2bac éxaman nationnal pc
     print('''\033[1;36m''')
@@ -291,10 +320,11 @@ elif x == 3:
     anglais = (float(input("note d'anglais:")) * 2)
     moyen_de_nationnale = (maths + pc + svt + philo + anglais) / 23
     print((maths / 7), (pc / 7), (svt / 5), (philo / 2), (anglais / 2))
-    print("\033[1;33mton moyen d'éxaman nationnal est " + str(moyen_de_nationnale))
     # la moyen général pour entrer à une classs)
+    moyen_géneral_re = ((moyen_de_rejional * 25) + (moyen_des_semestres * 25) + (moyen_de_nationnale * 50)) / 100
     moyen_géneral2 = (moyen_de_rejional + (moyen_de_nationnale * 3)) / 4
-    print("\033[1;33mton moyen géneral est " + str(moyen_géneral2))
+    print("\033[1;33mton moyen générale est " + str(moyen_géneral_re))
+    print("\033[1;33mton moyen d'acceptabilité dans les écoles est " + str(moyen_géneral2))
     # les seuil des écoles pour spc
 ENSA = 15.4
 ENCG = 15.5
@@ -330,6 +360,9 @@ if x == 3:
             print("tu es accepter dans l'encg")
         else:
             print("à la prochaine pour l'encg")
+        print("NB: les seuil par rapport à l'anné 2018")
+        print("Good Bye")
+        sys.exit()
 elif x == 4:
     # 2bac éxaman nationnal SVT
     print('''\033[1;36m''')
@@ -340,10 +373,11 @@ elif x == 4:
     anglais = (float(input("note d'anglais:")) * 2)
     moyen_de_nationnale = (maths + pc + svt + philo + anglais) / 23
     print((maths / 7), (pc / 5), (svt / 7), (philo / 2), (anglais / 2))
-    print("\033[1;33mton moyen d'éxaman nationnal est " + str(moyen_de_nationnale))
     # la moyen général pour entrer à une classs)
+    moyen_géneral_re = ((moyen_de_rejional * 25) + (moyen_des_semestres * 25) + (moyen_de_nationnale * 50)) / 100
     moyen_géneral3 = (moyen_de_rejional + (moyen_de_nationnale * 3)) / 4
-    print("\033[1;33mton moyen géneral est " + str(moyen_géneral3))
+    print("\033[1;33mton moyen générale est " + str(moyen_géneral_re))
+    print("\033[1;33mton moyen d'acceptabilité dans les écoles est " + str(moyen_géneral3))
     # les seuil des écoles pour spc
     ENSA = 16.5
     ENCG = 15.6
@@ -374,3 +408,6 @@ elif x == 4:
             print("tu es accepter dans l'encg")
         else:
             print("à la prochaine pour l'encg")
+        print("NB: les seuil par rapport à l'anné 2018")
+        print("Good Bye")
+        sys.exit()
