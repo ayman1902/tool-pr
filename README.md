@@ -5,6 +5,7 @@ this tool it's for the people who want to get closer to their goals and see thei
 - $pkg upgraded
 - $pkg install python
 - $pkg install git
+- $git clone https://github.com/ayman1902/tool-pr
 - $ls
 - $cd tool-pr
 - $ls
