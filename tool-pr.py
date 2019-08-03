@@ -40,7 +40,7 @@ if __name__ == '__main__':
         webbrowser.open_new("https://github.com/ayman1902")
         print("\033[1;31mthanks for visiting my github account \n\033[1;32mGood Bye\033[1;32m")
     def open_my_instagram_account():
-        webbrowser.open_new("https://www.instagram.com/ayman.bell.10/")
+        webbrowser.open_new("instagram.com/ayman.bell/")
         print("\033[1;31mthanks for visiting my instagram account \n\033[1;32mGood Bye\033[1;32m")
     def open_the_officiel_page_of_DWM_in_fb():
         webbrowser.open_new("https://www.facebook.com/dwebmaroc/")
