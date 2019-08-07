@@ -8,19 +8,18 @@ if __name__ == '__main__':
 #########    ##    ##     ## ######### ##  #### 
 ##     ##    ##    ##     ## ##     ## ##   ### 
 ##     ##    ##    ##     ## ##     ## ##    ##
-\033[1;36m===============================================\033[1;m \033[1;31m
-########  ##      ## ##     ## 
-##     ## ##  ##  ## ###   ### 
-##     ## ##  ##  ## #### #### 
-##     ## ##  ##  ## ## ### ## 
-##     ## ##  ##  ## ##     ## 
-##     ## ##  ##  ## ##     ## 
-########   ###  ###  ##     ## \033[34;1m[0]\033[1;32m:\033[35;1m EXIT
-\033[1;33m[\033[34;1m*\033[1;33m]\033[1;31mWelcom on\033[35;1m{\033[1;32mtool-pr\033[35;1m}\033[1;31m Programmable by[\033[34;1mAyman Belhaj\033[1;31m]
+\033[1;36m===============================================\033[1;m \033[1;31m                  
+#####  ####   ####  #       #####  #####  
+  #   #    # #    # #       #    # #    # 
+  #   #    # #    # # ##### #    # #    # 
+  #   #    # #    # #       #####  #####  
+  #   #    # #    # #       #      #   #  
+  #    ####   ####  ######  #      #    #    
+\033[1;33m[\033[34;1m*\033[1;33m]\033[1;31mWelcom on\033[35;1m{\033[1;32mtool-pr\033[35;1m}\033[1;31mProgrammable by[\033[34;1mAyman Belhaj\033[1;31m]
 \033[34;1m[10]\033[1;32m:\033[35;1m Follow my account {\033[1;31mfacebook\033[35;1m}
 \033[34;1m[20]\033[1;32m:\033[35;1m Follow my account on {\033[1;32mgithub\033[35;1m}
-\033[34;1m[30]\033[1;32m:\033[35;1m Follow my account on {\033[1;33minstagram\033[35;1m}
-\033[34;1m[\033[1;32m7777\033[34;1m]\033[1;32m:\033[35;1m Follow The officiel page of\033[1;31m DEEP WEB MAROC\033[35;1m in fb
+\033[34;1m[30]\033[1;32m:\033[35;1m Follow my account on {\033[1;33minstagram\033[35;1m}\033[1;31m/\033[34;1m[0]\033[1;32m:\033[1;33mEXIT
+\033[34;1m[\033[1;32m7777\033[34;1m]\033[1;32m:\033[35;1m Follow The officiel page of\033[1;31m DEEP WEB MAROC\033[35;1m in facebook
 \033[1;36m|==============================================\033[1;36m| 
 \033[1;36m|  \033[1;33m       thanks for the best groups:          \033[1;36m| 
 \033[1;36m|  \033[34;1m [ DWM +18 ] [ HK-G ] [ TM78 ] [MCT] [MKT] \033[1;36m |  
@@ -102,39 +101,59 @@ if __name__ == '__main__':
             print("\033[1;33mton moyen générale est " + str(moyen_géneral_re))
             print("\033[1;33mton moyen d'acceptabilité dans les écoles est " + str(moyen_géneral1))
             # les seuil des écoles pour sm
+        ENCG = 13.4
         ENSA = 12
-        ENCG = 14.5
-        ENSAM = 14.5
-        MEDECIN = 15
-        DENTISTE = 16
-        ingénieurie = 15
+        ENA = 15.88
+        ISCAE = 17.85
+        ENAM = 15
+        EST = 10.5
+        ENSAM = 13.4
+        FMP = 14.55
+        FMD = 17
+        PHARMACIE = 17
         if y == 1 or y == 2:
             # acceptabiliter pour les écoles
             print('''\033[35;1m=============================================== \033[34;1m''')
-            if moyen_géneral1 >= ingénieurie:
-                print("tu es accepter dans l'ingénieurie")
+            if moyen_géneral1 >= ENCG :
+                print("you are preselected in ENCG")
             else:
-                print("à la prochaine pour l'ingénieurie")
-            if moyen_géneral1 >= MEDECIN:
-                print("tu es accepter dans la médecine")
-            else:
-                print("à la prochaine pour la médcine")
-            if moyen_géneral1 >= DENTISTE:
-                print("tu es accepter dans la dentiste")
-            else:
-                print("à la prochaine pour la dentiste")
-            if moyen_géneral1 >= ENSAM:
-                print("tu es accepter dans l'ensam")
-            else:
-                print("à la prochaine pour l'ensam")
+                print("you are refusing in ENCG")
             if moyen_géneral1 >= ENSA:
-                print("tu es accepter dans l'ensa")
+                print("you are preselected in ENSA")
             else:
-                print("à la prochaine pour l'ensa")
-            if moyen_géneral1 >= ENCG:
-                print("tu es accepter dans l'encg")
+                print("you are refusing in ENSA")
+            if moyen_géneral1 >= ENA:
+                print("you are preselected in ENA ")
             else:
-                print("à la prochaine pour l'encg")
+                print("you are refusing in ENA")
+            if moyen_géneral1 >= ISCAE:
+                print("you are preselected in ISCAE")
+            else:
+                print("you are refusing in ISCAE")
+            if moyen_géneral1 >= ENAM:
+                print("you are preselected in ENAM")
+            else:
+                print("you are refusing in ENAM")
+            if moyen_géneral1 >= EST:
+                print("you are preselected in EST")
+            else:
+                print("you are refusing in EST")
+            if moyen_géneral1 >= ENSAM:
+                print("you are preselected in ENSAM")
+            else:
+                print("you are refusing in ENSAM")
+            if moyen_géneral1 >= FMP:
+                print("you are preselected in FMP")
+            else:
+                print("you are refusing in FMP")
+            if moyen_géneral1 >= FMD:
+                print("you are preselected in FMD")
+            else:
+                print("you are refusing in FMD")
+            if moyen_géneral1 >= PHARMACIE:
+                print("you are preselected in PHARMACIE")
+            else:
+                print("you are refusing in PHARMACIE")
             print("NB: les seuil par rapport à l'anné 2018")
             print("\033[1;32mgood luck :)")
             sys.exit()
@@ -155,39 +174,59 @@ if __name__ == '__main__':
             print("\033[1;33mton moyen générale est " + str(moyen_géneral_re))
             print("\033[1;33mton moyen d'acceptabilité dans les écoles est " + str(moyen_géneral2))
             # les seuil des écoles pour spc
+        ENCG = 15.4
         ENSA = 15.4
-        ENCG = 15.5
-        ENSAM = 16.8
-        MEDECIN = 17
-        DENTISTE = 16
-        ingénieurie = 16
+        ENA = 15.88
+        ISCAE = 18.54
+        ENAM = 17.18
+        EST = 13
+        ENSAM = 17.25
+        FMP = 14.55
+        FMD = 17
+        PHARMACIE = 17
         if y == 3:
             # acceptabiliter pour les écoles
             print('''\033[35;1m=============================================== \033[34;1m''')
-            if moyen_géneral2 >= ingénieurie:
-                print("tu es accepter dans l'ingénieurie")
-            else:
-                print("à la prochaine pour l'ingénieurie")
-            if moyen_géneral2 >= MEDECIN:
-                print("tu es accepter dans la médecine")
-            else:
-                print("à la prochaine pour la médcine")
-            if moyen_géneral2 >= DENTISTE:
-                print("tu es accepter dans la dentiste")
-            else:
-                print("à la prochaine pour la dentiste")
-            if moyen_géneral2 >= ENSAM:
-                print("tu es accepter dans l'ensam")
-            else:
-                print("à la prochaine pour l'ensam")
-            if moyen_géneral2 >= ENSA:
-                print("tu es accepter dans l'ensa")
-            else:
-                print("à la prochaine pour l'ensa")
             if moyen_géneral2 >= ENCG:
-                print("tu es accepter dans l'encg")
+                print("you are preselected in ENCG")
             else:
-                print("à la prochaine pour l'encg")
+                print("you are refusing in ENCG")
+            if moyen_géneral2 >= ENSA:
+                print("you are preselected in ENSA")
+            else:
+                print("you are refusing in ENSA")
+            if moyen_géneral2 >= ENA:
+                print("you are preselected in ENA ")
+            else:
+                print("you are refusing in ENA")
+            if moyen_géneral2 >= ISCAE:
+                print("you are preselected in ISCAE")
+            else:
+                print("you are refusing in ISCAE")
+            if moyen_géneral2 >= ENAM:
+                print("you are preselected in ENAM")
+            else:
+                print("you are refusing in ENAM")
+            if moyen_géneral2 >= EST:
+                print("you are preselected in EST")
+            else:
+                print("you are refusing in EST")
+            if moyen_géneral2 >= ENSAM:
+                print("you are preselected in ENSAM")
+            else:
+                print("you are refusing in ENSAM")
+            if moyen_géneral2 >= FMP:
+                print("you are preselected in FMP")
+            else:
+                print("you are refusing in FMP")
+            if moyen_géneral2 >= FMD:
+                print("you are preselected in FMD")
+            else:
+                print("you are refusing in FMD")
+            if moyen_géneral2 >= PHARMACIE:
+                print("you are preselected in PHARMACIE")
+            else:
+                print("you are refusing in PHARMACIE")
             print("NB: les seuil par rapport à l'anné 2018")
             print("\033[1;32mgood luck :)")
             sys.exit()
@@ -208,38 +247,59 @@ if __name__ == '__main__':
             print("\033[1;33mton moyen d'éxaman réjional est" + str(moyen_de_rejional0))
             print("\033[1;33mton moyen générale est " + str(moyen_géneral_re))
             print("\033[1;33mton moyen d'acceptabilité dans les écoles est " + str(moyen_géneral3))
-            ENSA = 16.5
-            ENCG = 15.6
-            ENSAM = 16.80
-            MEDECIN = 16
-            DENTISTE = 16
+            ENCG = 15.4
+            ENSA = 15.4
+            ENA = 15.88
+            ISCAE = 18
+            ENAM = 15.51
+            EST = 13
+            ENSAM = 17.25
+            FMP = 14.55
+            FMD = 17
+            PHARMACIE = 17
             if y == 4:
                 # acceptabiliter pour les écoles
                 print('''\033[35;1m=============================================== \033[34;1m''')
-                if moyen_géneral3 >= ingénieurie:
-                    print("tu es accepter dans l'ingénieurie")
-                else:
-                    print("à la prochaine pour l'ingénieurie")
-                if moyen_géneral3 >= MEDECIN:
-                    print("tu es accepter dans la médecine")
-                else:
-                    print("à la prochaine pour la médcine")
-                if moyen_géneral3 >= DENTISTE:
-                    print("tu es accepter dans la dentiste")
-                else:
-                    print("à la prochaine pour la dentiste")
-                if moyen_géneral3 >= ENSAM:
-                    print("tu es accepter dans l'ensam")
-                else:
-                    print("à la prochaine pour l'ensam")
-                if moyen_géneral3 >= ENSA:
-                    print("tu es accepter dans l'ensa")
-                else:
-                    print("à la prochaine pour l'ensa")
                 if moyen_géneral3 >= ENCG:
-                    print("tu es accepter dans l'encg")
+                    print("you are preselected in ENCG")
                 else:
-                    print("à la prochaine pour l'encg")
+                    print("you are refusing in ENCG")
+                if moyen_géneral3 >= ENSA:
+                    print("you are preselected in ENSA")
+                else:
+                    print("you are refusing in ENSA")
+                if moyen_géneral3 >= ENA:
+                    print("you are preselected in ENA ")
+                else:
+                    print("you are refusing in ENA")
+                if moyen_géneral3 >= ISCAE:
+                    print("you are preselected in ISCAE")
+                else:
+                    print("you are refusing in ISCAE")
+                if moyen_géneral3 >= ENAM:
+                    print("you are preselected in ENAM")
+                else:
+                    print("you are refusing in ENAM")
+                if moyen_géneral3 >= EST:
+                    print("you are preselected in EST")
+                else:
+                    print("you are refusing in EST")
+                if moyen_géneral3 >= ENSAM:
+                    print("you are preselected in ENSAM")
+                else:
+                    print("you are refusing in ENSAM")
+                if moyen_géneral3 >= FMP:
+                    print("you are preselected in FMP")
+                else:
+                    print("you are refusing in FMP")
+                if moyen_géneral3 >= FMD:
+                    print("you are preselected in FMD")
+                else:
+                    print("you are refusing in FMD")
+                if moyen_géneral3 >= PHARMACIE:
+                    print("you are preselected in PHARMACIE")
+                else:
+                    print("you are refusing in PHARMACIE")
                 print("NB: les seuil par rapport à l'anné 2018")
                 print("\033[1;32mgood luck :)")
                 sys.exit()
@@ -293,39 +353,59 @@ elif x == 2:
     print("\033[1;33mton moyen générale est " + str(moyen_géneral_re))
     print("\033[1;33mton moyen d'acceptabilité dans les écoles est " + str(moyen_géneral1))
     #les seuil des écoles pour sm
+ENCG = 13.4
 ENSA = 12
-ENCG = 14.5
-ENSAM = 14.5
-MEDECIN = 15
-DENTISTE = 16
-ingénieurie = 15
+ENA = 15.88
+ISCAE = 17.85
+ENAM = 15
+EST = 10.5
+ENSAM = 13.4
+FMP = 14.55
+FMD = 17
+PHARMACIE = 17
 if x == 1 or x == 2:
     # acceptabiliter pour les écoles
     print('''\033[35;1m=============================================== \033[34;1m''')
-    if moyen_géneral1 >= ingénieurie:
-        print("tu es accepter dans l'ingénieurie")
-    else:
-        print("à la prochaine pour l'ingénieurie")
-    if moyen_géneral1 >= MEDECIN:
-        print("tu es accepter dans la médecine")
-    else:
-        print("à la prochaine pour la médcine")
-    if moyen_géneral1 >= DENTISTE:
-        print("tu es accepter dans la dentiste")
-    else:
-        print("à la prochaine pour la dentiste")
-    if moyen_géneral1 >= ENSAM:
-        print("tu es accepter dans l'ensam")
-    else:
-        print("à la prochaine pour l'ensam")
-    if moyen_géneral1 >= ENSA:
-        print("tu es accepter dans l'ensa")
-    else:
-        print("à la prochaine pour l'ensa")
     if moyen_géneral1 >= ENCG:
-        print("tu es accepter dans l'encg")
+        print("you are preselected in ENCG")
     else:
-        print("à la prochaine pour l'encg")
+        print("you are refusing in ENCG")
+    if moyen_géneral1 >= ENSA:
+        print("you are preselected in ENSA")
+    else:
+        print("you are refusing in ENSA")
+    if moyen_géneral1 >= ENA:
+        print("you are preselected in ENA ")
+    else:
+        print("you are refusing in ENA")
+    if moyen_géneral1 >= ISCAE:
+        print("you are preselected in ISCAE")
+    else:
+        print("you are refusing in ISCAE")
+    if moyen_géneral1 >= ENAM:
+        print("you are preselected in ENAM")
+    else:
+        print("you are refusing in ENAM")
+    if moyen_géneral1 >= EST:
+        print("you are preselected in EST")
+    else:
+        print("you are refusing in EST")
+    if moyen_géneral1 >= ENSAM:
+        print("you are preselected in ENSAM")
+    else:
+        print("you are refusing in ENSAM")
+    if moyen_géneral1 >= FMP:
+        print("you are preselected in FMP")
+    else:
+        print("you are refusing in FMP")
+    if moyen_géneral1 >= FMD:
+        print("you are preselected in FMD")
+    else:
+        print("you are refusing in FMD")
+    if moyen_géneral1 >= PHARMACIE:
+        print("you are preselected in PHARMACIE")
+    else:
+        print("you are refusing in PHARMACIE")
     print("NB: les seuil par rapport à l'anné 2018")
     print("\033[1;32mgood luck :)")
     sys.exit()
@@ -346,39 +426,59 @@ elif x == 3:
     print("\033[1;33mton moyen générale est " + str(moyen_géneral_re))
     print("\033[1;33mton moyen d'acceptabilité dans les écoles est " + str(moyen_géneral2))
     # les seuil des écoles pour spc
-ENSA = 15.4
-ENCG = 15.5
-ENSAM = 16.8
-MEDECIN = 17
-DENTISTE = 16
-ingénieurie = 16
+    ENCG = 15.4
+    ENSA = 15.4
+    ENA = 15.88
+    ISCAE = 18.54
+    ENAM = 17.18
+    EST = 13
+    ENSAM = 17.25
+    FMP = 14.55
+    FMD = 17
+    PHARMACIE = 17
 if x == 3:
         # acceptabiliter pour les écoles
         print('''\033[35;1m=============================================== \033[34;1m''')
-        if moyen_géneral2 >= ingénieurie:
-            print("tu es accepter dans l'ingénieurie")
-        else:
-            print("à la prochaine pour l'ingénieurie")
-        if moyen_géneral2 >= MEDECIN:
-            print("tu es accepter dans la médecine")
-        else:
-            print("à la prochaine pour la médcine")
-        if moyen_géneral2 >= DENTISTE:
-            print("tu es accepter dans la dentiste")
-        else:
-            print("à la prochaine pour la dentiste")
-        if moyen_géneral2 >= ENSAM:
-            print("tu es accepter dans l'ensam")
-        else:
-            print("à la prochaine pour l'ensam")
-        if moyen_géneral2 >= ENSA:
-            print("tu es accepter dans l'ensa")
-        else:
-            print("à la prochaine pour l'ensa")
         if moyen_géneral2 >= ENCG:
-            print("tu es accepter dans l'encg")
+            print("you are preselected in ENCG")
         else:
-            print("à la prochaine pour l'encg")
+            print("you are refusing in ENCG")
+        if moyen_géneral2 >= ENSA:
+            print("you are preselected in ENSA")
+        else:
+            print("you are refusing in ENSA")
+        if moyen_géneral2 >= ENA:
+            print("you are preselected in ENA ")
+        else:
+            print("you are refusing in ENA")
+        if moyen_géneral2 >= ISCAE:
+            print("you are preselected in ISCAE")
+        else:
+            print("you are refusing in ISCAE")
+        if moyen_géneral2 >= ENAM:
+            print("you are preselected in ENAM")
+        else:
+            print("you are refusing in ENAM")
+        if moyen_géneral2 >= EST:
+            print("you are preselected in EST")
+        else:
+            print("you are refusing in EST")
+        if moyen_géneral2 >= ENSAM:
+            print("you are preselected in ENSAM")
+        else:
+            print("you are refusing in ENSAM")
+        if moyen_géneral2 >= FMP:
+            print("you are preselected in FMP")
+        else:
+            print("you are refusing in FMP")
+        if moyen_géneral2 >= FMD:
+            print("you are preselected in FMD")
+        else:
+            print("you are refusing in FMD")
+        if moyen_géneral2 >= PHARMACIE:
+            print("you are preselected in PHARMACIE")
+        else:
+            print("you are refusing in PHARMACIE")
         print("NB: les seuil par rapport à l'anné 2018")
         print("\033[1;32mgood luck :)")
         sys.exit()
@@ -399,35 +499,59 @@ elif x == 4:
     print("\033[1;33mton moyen générale est " + str(moyen_géneral_re))
     print("\033[1;33mton moyen d'acceptabilité dans les écoles est " + str(moyen_géneral3))
     # les seuil des écoles pour spc
-    ENSA = 16.5
-    ENCG = 15.6
-    ENSAM = 16.80
-    MEDECIN = 16
-    DENTISTE = 16
+    ENCG = 15.4
+    ENSA = 15.4
+    ENA = 15.88
+    ISCAE = 18
+    ENAM = 15.51
+    EST = 13
+    ENSAM = 17.25
+    FMP = 14.55
+    FMD = 17
+    PHARMACIE = 17
     if x == 4:
         # acceptabiliter pour les écoles
         print('''\033[35;1m=============================================== \033[34;1m''')
-        print('''\033[34;1m''')
-        if moyen_géneral3 >= MEDECIN:
-            print("tu es accepter dans la médecine")
-        else:
-            print("à la prochaine pour la médcine")
-        if moyen_géneral3 >= DENTISTE:
-            print("tu es accepter dans la dentiste")
-        else:
-            print("à la prochaine pour la dentiste")
-        if moyen_géneral3 >= ENSAM:
-            print("tu es accepter dans l'ensam")
-        else:
-            print("à la prochaine pour l'ensam")
-        if moyen_géneral3 >= ENSA:
-            print("tu es accepter dans l'ensa")
-        else:
-            print("à la prochaine pour l'ensa")
         if moyen_géneral3 >= ENCG:
-            print("tu es accepter dans l'encg")
+            print("you are preselected in ENCG")
         else:
-            print("à la prochaine pour l'encg")
+            print("you are refusing in ENCG")
+        if moyen_géneral3 >= ENSA:
+            print("you are preselected in ENSA")
+        else:
+            print("you are refusing in ENSA")
+        if moyen_géneral3 >= ENA:
+            print("you are preselected in ENA ")
+        else:
+            print("you are refusing in ENA")
+        if moyen_géneral3 >= ISCAE:
+            print("you are preselected in ISCAE")
+        else:
+            print("you are refusing in ISCAE")
+        if moyen_géneral3 >= ENAM:
+            print("you are preselected in ENAM")
+        else:
+            print("you are refusing in ENAM")
+        if moyen_géneral3 >= EST:
+            print("you are preselected in EST")
+        else:
+            print("you are refusing in EST")
+        if moyen_géneral3 >= ENSAM:
+            print("you are preselected in ENSAM")
+        else:
+            print("you are refusing in ENSAM")
+        if moyen_géneral3 >= FMP:
+            print("you are preselected in FMP")
+        else:
+            print("you are refusing in FMP")
+        if moyen_géneral3 >= FMD:
+            print("you are preselected in FMD")
+        else:
+            print("you are refusing in FMD")
+        if moyen_géneral3 >= PHARMACIE:
+            print("you are preselected in PHARMACIE")
+        else:
+            print("you are refusing in PHARMACIE")
         print("NB: les seuil par rapport à l'anné 2018")
         print("\033[1;32mgood luck :)")
         sys.exit()
