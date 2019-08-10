@@ -2,14 +2,54 @@ if __name__ == '__main__':
     import sys
     import webbrowser
     import time
-    def half_clear(line=5 , seconde = 2):
-        time.sleep(seconde)
-        print('\n' *line)
+    import os
+    def clear():
+        os.system('clear')
+        time.sleep(1)
+    def loading():
+        clear()
+        print("\n"*5)
+        print("        \033[1;32mPlease Wait ===+[\033[34;1m>          \033[1;32m    ]")
+        time.sleep(0.4)
+        clear()
+        print("\n" * 5)
+        print("        \033[1;32mPlease Wait ===+[\033[34;1m-->        \033[1;32m    ]")
+        time.sleep(0.4)
+        clear()
+        print("\n" * 5)
+        print("        \033[1;32mPlease Wait ===+[\033[34;1m  -->      \033[1;32m    ]")
+        time.sleep(0.4)
+        clear()
+        print("\n" * 5)
+        print("        \033[1;32mPlease Wait ===+[\033[34;1m    -->    \033[1;32m    ]")
+        time.sleep(0.4)
+        clear()
+        print("\n" * 5)
+        print("        \033[1;32mPlease Wait ===+[\033[34;1m      -->  \033[1;32m    ]")
+        time.sleep(0.4)
+        clear()
+        print("\n" * 5)
+        print("        \033[1;32mPlease Wait ===+[\033[34;1m        -->\033[1;32m    ]")
+        time.sleep(0.4)
+        clear()
+        print("\n" * 5)
+        print("        \033[1;32mPlease Wait ===+[\033[34;1m          -->\033[1;32m  ]")
+        time.sleep(0.4)
+        clear()
+        print("\n" * 5)
+        print("        \033[1;32mPlease Wait ===+[\033[34;1m            -->\033[1;32m]")
+        time.sleep(0.4)
+        clear()
+        print("\n" * 5)
+        print("\n\033[1;33m[\033[34;1m*\033[1;33m]\033[1;31mWelcom on\033[35;1m{\033[1;32mtool-pr\033[35;1m}\033[1;31mProgrammable by[\033[34;1mAyman Belhaj\033[1;31m]")
+        time.sleep(1.5)
+        clear()
+    loading()
     def reload():
         if __name__ == '__main__':
             import sys
             import webbrowser
-            half_clear()
+            loading()
             print('''\033[1;31m
 #####  ####   ####  #       #####  #####  
   #   #    # #    # #       #    # #    # 
