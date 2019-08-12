@@ -49,7 +49,7 @@ if __name__ == '__main__':
         if __name__ == '__main__':
             import sys
             import webbrowser
-            loading()
+            clear()
             print('''\033[1;31m
 #####  ####   ####  #       #####  #####  
   #   #    # #    # #       #    # #    # 
@@ -78,19 +78,23 @@ if __name__ == '__main__':
             def open_my_facebook_account():
                 webbrowser.open_new("https://www.facebook.com/ayman.belhaj.10")
                 print("\033[1;31mthanks for visiting my facebook account \n\033[1;32mGood Bye\033[1;32m")
-                sys.exit()
+                time.sleep(2)
+                reload()
             def open_my_github_account():
                 webbrowser.open_new("https://github.com/ayman1902")
                 print("\033[1;31mthanks for visiting my github account \n\033[1;32mGood Bye\033[1;32m")
-                sys.exit()
+                time.sleep(2)
+                reload()
             def open_my_instagram_account():
                 webbrowser.open_new("instagram.com/ayman.bell/")
                 print("\033[1;31mthanks for visiting my instagram account \n\033[1;32mGood Bye\033[1;32m")
-                sys.exit()
+                time.sleep(2)
+                reload()
             def open_the_officiel_page_of_DWM_in_fb():
                 webbrowser.open_new("https://www.facebook.com/dwebmaroc/")
                 print("\033[1;31mthanks for visiting the officiel page of DWM in fb \n\033[1;32mGood Bye\033[1;32m")
-                sys.exit()
+                time.sleep(2)
+                reload()
             if x == 99:
                 reload()
             if x == 10:
@@ -117,7 +121,6 @@ if __name__ == '__main__':
                     sys.exit()
                 if y == 10:
                     open_my_facebook_account()
-                    sys.exit()
                 if y == 20:
                     open_my_github_account()
                 if y == 30:
@@ -126,6 +129,7 @@ if __name__ == '__main__':
                     open_the_officiel_page_of_DWM_in_fb()
                 if y != 0 and y != 1 and y != 2 and y != 3 and y != 4 and y != 10 and y != 20 and y != 30 and y != 7777:
                     print("\033[1;36mError please retry the process")
+                    time.sleep(2)
                     reload()
                 elif y == 1 or y == 2 or y == 3 or y == 4:
                     print('''\033[34;1m=============================================== \033[1;36m''')
@@ -148,7 +152,8 @@ if __name__ == '__main__':
                     if moyen_géneral_re1 < 10:
                         time.sleep(0.4)
                         print("\033[1;31myou are failed")
-                        sys.exit()
+                        time.sleep(2)
+                        reload()
                     else:
                         print("\033[1;33mton moyen d'acceptabilité dans les écoles est: \033[34;1m" + str(moyen_géneral1))
                 elif y == 2:
@@ -170,7 +175,8 @@ if __name__ == '__main__':
                     if moyen_géneral_re2 < 10:
                         time.sleep(0.4)
                         print("\033[1;31myou are failed")
-                        sys.exit()
+                        time.sleep(2)
+                        reload()
                     else:
                         print("\033[1;33mton moyen d'acceptabilité dans les écoles est: \033[34;1m" + str(moyen_géneral1))
                     # les seuil des écoles pour sm
@@ -249,7 +255,8 @@ if __name__ == '__main__':
                         print("you are\033[1;33m refusing\033[34;1m in PHARMACIE")
                     print("NB: les seuil par rapport à l'anné 2018")
                     print("\033[1;32mgood luck :)")
-                    sys.exit()
+                    time.sleep(5)
+                    reload()
                 elif y == 3:
                     # 2bac éxaman nationnal pc
                     maths = (float(input("note de maths:")) * 7)
@@ -269,7 +276,8 @@ if __name__ == '__main__':
                     if moyen_géneral_re3 < 10:
                         time.sleep(0.4)
                         print("\033[1;31myou are failed")
-                        sys.exit()
+                        time.sleep(2)
+                        reload()
                     else:
                         print("\033[1;33mton moyen d'acceptabilité dans les écoles est: \033[34;1m" + str(moyen_géneral2))
                     # les seuil des écoles pour spc
@@ -348,7 +356,8 @@ if __name__ == '__main__':
                         print("you are\033[1;33m refusing\033[34;1m in PHARMACIE")
                     print("NB: les seuil par rapport à l'anné 2018")
                     print("\033[1;32mgood luck :)")
-                    sys.exit()
+                    time.sleep(5)
+                    reload()
                 elif y == 4:
                     # 2bac éxaman nationnal SVT
                     maths = (float(input("note de maths:")) * 7)
@@ -369,7 +378,8 @@ if __name__ == '__main__':
                     if moyen_géneral_re4 < 10:
                         time.sleep(0.4)
                         print("\033[1;31myou are failed")
-                        sys.exit()
+                        time.sleep(2)
+                        reload()
                     else:
                         print("\033[1;33mton moyen d'acceptabilité dans les écoles est: \033[34;1m" + str(moyen_géneral3))
                     ENCG = 15.4
@@ -447,14 +457,16 @@ if __name__ == '__main__':
                             print("you are\033[1;33m refusing\033[34;1m in PHARMACIE")
                         print("NB: les seuil par rapport à l'anné 2018")
                         print("\033[1;32mgood luck :)")
-                        sys.exit()
+                        time.sleep(5)
+                        reload()
             elif x == 0:
                 print("\033[1;36mGood Bye")
                 sys.exit()
             if x != 0 and x != 1 and x != 2 and x != 3 and x != 4 and x != 5 and x != 10 and x != 20 and x != 30 and x != 7777:
                 print("\033[1;36mError please retry the process")
+                time.sleep(2)
                 reload()
-                # 1bac éxaman réjonnal
+            # 1bac éxaman réjonnal
             elif x == 1 or x == 2 or x == 3 or x == 4:
                 print('''\033[34;1m=============================================== \033[1;36m''')
                 francais = float(input("note de francais:")) * 2
@@ -482,7 +494,8 @@ if __name__ == '__main__':
                 if moyen_géneral_re1 < 10:
                     time.sleep(0.4)
                     print("\033[1;31myou are failed")
-                    sys.exit()
+                    time.sleep(2)
+                    reload()
                 else:
                     print("\033[1;33mton moyen d'acceptabilité dans les écoles est: \033[34;1m" + str(moyen_géneral1))
             elif x == 2:
@@ -503,7 +516,8 @@ if __name__ == '__main__':
                 if moyen_géneral_re2 < 10:
                     time.sleep(0.4)
                     print("\033[1;31myou are failed")
-                    sys.exit()
+                    time.sleep(2)
+                    reload()
                 else:
                     print("\033[1;33mton moyen d'acceptabilité dans les écoles est: \033[34;1m" + str(moyen_géneral1))
                 # les seuil des écoles pour sm
@@ -582,7 +596,8 @@ if __name__ == '__main__':
                     print("you are\033[1;33m refusing\033[34;1m in PHARMACIE")
                 print("NB: les seuil par rapport à l'anné 2018")
                 print("\033[1;32mgood luck :)")
-                sys.exit()
+                time.sleep(5)
+                reload()
             elif x == 3:
                 # 2bac éxaman nationnal pc
                 maths = (float(input("note de maths:")) * 7)
@@ -602,7 +617,8 @@ if __name__ == '__main__':
                 if moyen_géneral_re3 < 10:
                     time.sleep(0.4)
                     print("\033[1;31myou are failed")
-                    sys.exit()
+                    time.sleep(2)
+                    reload()
                 else :
                      print("\033[1;33mton moyen d'acceptabilité dans les écoles est: \033[34;1m" + str(moyen_géneral2))
             # les seuil des écoles pour spc
@@ -681,7 +697,8 @@ if __name__ == '__main__':
                     print("you are\033[1;33m refusing\033[34;1m in PHARMACIE")
                 print("NB: les seuil par rapport à l'anné 2018")
                 print("\033[1;32mgood luck :)")
-                sys.exit()
+                time.sleep(5)
+                reload()
             elif x == 4:
                 # 2bac éxaman nationnal SVT
                 maths = (float(input("note de maths:")) * 7)
@@ -702,7 +719,8 @@ if __name__ == '__main__':
                 if moyen_géneral_re4 < 10:
                     time.sleep(0.4)
                     print("\033[1;31myou are failed ")
-                    sys.exit()
+                    time.sleep(2)
+                    reload()
                 else:
                     print("\033[1;33mton moyen d'acceptabilité dans les écoles est: \033[34;1m" + str(moyen_géneral3))
                 ENCG = 15.4
@@ -780,8 +798,9 @@ if __name__ == '__main__':
                         print("you are\033[1;33m refusing\033[34;1m in PHARMACIE")
                     print("NB: les seuil par rapport à l'anné 2018")
                     print("\033[1;32mgood luck :)")
-                    sys.exit()
-    print('''   \033[1;33m###    ##    ## ##     ##    ###    ##    ## 
+                    time.sleep(5)
+                    reload()
+                print('''   \033[1;33m###    ##    ## ##     ##    ###    ##    ## 
   ## ##    ##  ##  ###   ###   ## ##   ###   ## 
  ##   ##    ####   #### ####  ##   ##  ####  ## 
 ##     ##    ##    ## ### ## ##     ## ## ## ## 
@@ -819,19 +838,23 @@ if __name__ == '__main__':
     def open_my_facebook_account():
         webbrowser.open_new("https://www.facebook.com/ayman.belhaj.10")
         print("\033[1;31mthanks for visiting my facebook account \n\033[1;32mGood Bye\033[1;32m")
-        sys.exit()
+        time.sleep(2)
+        reload()
     def open_my_github_account():
         webbrowser.open_new("https://github.com/ayman1902")
         print("\033[1;31mthanks for visiting my github account \n\033[1;32mGood Bye\033[1;32m")
-        sys.exit()
+        time.sleep(2)
+        reload()
     def open_my_instagram_account():
         webbrowser.open_new("instagram.com/ayman.bell/")
         print("\033[1;31mthanks for visiting my instagram account \n\033[1;32mGood Bye\033[1;32m")
-        sys.exit()
+        time.sleep(2)
+        reload()
     def open_the_officiel_page_of_DWM_in_fb():
         webbrowser.open_new("https://www.facebook.com/dwebmaroc/")
         print("\033[1;31mthanks for visiting the officiel page of DWM in fb \n\033[1;32mGood Bye\033[1;32m")
-        sys.exit()
+        time.sleep(2)
+        reload()
     if x == 99:
         reload()
     if x == 10:
@@ -887,7 +910,8 @@ if __name__ == '__main__':
             if moyen_géneral_re1 < 10:
                 time.sleep(0.4)
                 print("\033[1;31myou are failed")
-                sys.exit()
+                time.sleep(2)
+                reload()
             else:
                 print("\033[1;33mton moyen d'acceptabilité dans les écoles est: \033[34;1m" + str(moyen_géneral1))
         elif y == 2:
@@ -908,7 +932,8 @@ if __name__ == '__main__':
             if moyen_géneral_re2 < 10:
                 time.sleep(0.4)
                 print("\033[1;31myou are failed")
-                sys.exit()
+                time.sleep(2)
+                reload()
             else:
                 print("\033[1;33mton moyen d'acceptabilité dans les écoles est: \033[34;1m" + str(moyen_géneral1))
             # les seuil des écoles pour sm
@@ -987,7 +1012,8 @@ if __name__ == '__main__':
                 print("you are\033[1;33m refusing\033[34;1m in PHARMACIE")
             print("NB: les seuil par rapport à l'anné 2018")
             print("\033[1;32mgood luck :)")
-            sys.exit()
+            time.sleep(5)
+            reload()
         elif y == 3:
             # 2bac éxaman nationnal pc
             maths = (float(input("note de maths:")) * 7)
@@ -1006,7 +1032,8 @@ if __name__ == '__main__':
             if moyen_géneral_re3 < 10:
                 time.sleep(0.4)
                 print("\033[1;31myou are failed")
-                sys.exit()
+                time.sleep(2)
+                reload()
             else:
                 print("\033[1;33mton moyen d'acceptabilité dans les écoles est: \033[34;1m" + str(moyen_géneral2))
             # les seuil des écoles pour spc
@@ -1085,7 +1112,8 @@ if __name__ == '__main__':
                 print("you are\033[1;33m refusing\033[34;1m in PHARMACIE")
             print("NB: les seuil par rapport à l'anné 2018")
             print("\033[1;32mgood luck :)")
-            sys.exit()
+            time.sleep(5)
+            reload()
         elif y == 4:
             # 2bac éxaman nationnal SVT
             maths = (float(input("note de maths:")) * 7)
@@ -1105,7 +1133,8 @@ if __name__ == '__main__':
             if moyen_géneral_re4 < 10:
                 time.sleep(0.4)
                 print("\033[1;31myou are failed")
-                sys.exit()
+                time.sleep(2)
+                reload()
             else:
                 print("\033[1;33mton moyen d'acceptabilité dans les écoles est: \033[34;1m" + str(moyen_géneral3))
             ENCG = 15.4
@@ -1183,12 +1212,15 @@ if __name__ == '__main__':
                     print("you are\033[1;33m refusing\033[34;1m in PHARMACIE")
                 print("NB: les seuil par rapport à l'anné 2018")
                 print("\033[1;32mgood luck :)")
-                sys.exit()
+                time.sleep(5)
+                reload()
     elif x == 0:
         print("\033[1;36mGood Bye")
+        time.sleep(2)
         sys.exit()
     if x!= 0 and x != 1 and x != 2 and x != 3 and x != 4 and x != 5 and x != 10 and x != 20 and x != 30 and x != 7777:
         print("\033[1;36mError please retry the process")
+        time.sleep(2)
         reload()
         # 1bac éxaman réjonnal
     elif x == 1 or x == 2 or x == 3 or x == 4:
@@ -1219,7 +1251,8 @@ if x == 1:
     if moyen_géneral_re1 < 10:
         time.sleep(0.4)
         print("\033[1;31myou are failed")
-        sys.exit()
+        time.sleep(2)
+        reload()
     else:
         print("\033[1;33mton moyen d'acceptabilité dans les écoles est: \033[34;1m" + str(moyen_géneral1))
 elif x == 2:
@@ -1240,7 +1273,8 @@ elif x == 2:
     if moyen_géneral_re2 < 10:
         time.sleep(0.4)
         print("\033[1;31myou are failed")
-        sys.exit()
+        time.sleep(2)
+        reload()
     else:
         print("\033[1;33mton moyen d'acceptabilité dans les écoles est: \033[34;1m" + str(moyen_géneral1))
     #les seuil des écoles pour sm
@@ -1319,7 +1353,8 @@ if x == 1 or x == 2:
         print("you are\033[1;33m refusing\033[34;1m in PHARMACIE")
     print("NB: les seuil par rapport à l'anné 2018")
     print("\033[1;32mgood luck :)")
-    sys.exit()
+    time.sleep(5)
+    reload()
 elif x == 3:
     # 2bac éxaman nationnal pc
     maths = (float(input("note de maths:")) * 7)
@@ -1338,7 +1373,8 @@ elif x == 3:
     if moyen_géneral_re3 < 10:
         time.sleep(0.4)
         print("\033[1;31myou are failed")
-        sys.exit()
+        time.sleep(2)
+        reload()
     else:
         print("\033[1;33mton moyen d'acceptabilité dans les écoles est: \033[34;1m" + str(moyen_géneral2))
     # les seuil des écoles pour spc
@@ -1417,7 +1453,8 @@ if x == 3:
             print("you are\033[1;33m refusing\033[34;1m in PHARMACIE")
         print("NB: les seuil par rapport à l'anné 2018")
         print("\033[1;32mgood luck :)")
-        sys.exit()
+        time.sleep(5)
+        reload()
 elif x == 4:
     # 2bac éxaman nationnal SVT
     maths = (float(input("note de maths:")) * 7)
@@ -1436,7 +1473,8 @@ elif x == 4:
     if moyen_géneral_re4 < 10:
         time.sleep(0.4)
         print("\033[1;31myou are failed")
-        sys.exit()
+        time.sleep(2)
+        reload()
     else:
         print("\033[1;33mton moyen d'acceptabilité dans les écoles est: \033[34;1m" + str(moyen_géneral3))
     # les seuil des écoles pour spc
@@ -1515,4 +1553,5 @@ elif x == 4:
             print("you are\033[1;33m refusing\033[34;1m in PHARMACIE")
         print("NB: les seuil par rapport à l'anné 2018")
         print("\033[1;32mgood luck :)")
-        sys.exit()
+        time.sleep(5)
+        reload()
