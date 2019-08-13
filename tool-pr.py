@@ -3,9 +3,11 @@ if __name__ == '__main__':
     import webbrowser
     import time
     import os
+    #function clear
     def clear():
         os.system('clear')
         time.sleep(1)
+    #chargement de donné
     def loading():
         clear()
         print("\n"*5)
@@ -45,6 +47,7 @@ if __name__ == '__main__':
         time.sleep(1.5)
         clear()
     loading()
+    #function reload
     def reload():
         if __name__ == '__main__':
             import sys
@@ -66,6 +69,7 @@ if __name__ == '__main__':
 \033[1;36m|  \033[1;33m       thanks for the best groups:          \033[1;36m| 
 \033[1;36m|  \033[34;1m [ DWM +18 ] [ HK-G ] [ TM78 ] [MCT] [MKT] \033[1;36m |  
 \033[1;36m|==============================================| ''')
+            time.sleep(0.4)
             print("\033[1;31mthis tool it's for the people who want to\033[1;31m ")
             print("\033[1;31mget closer to their goals and see their future\033[1;31m")
             print("\033[1;32mnow you are in 1bac\033[1;32m")
@@ -77,22 +81,34 @@ if __name__ == '__main__':
             # my accounts
             def open_my_facebook_account():
                 webbrowser.open_new("https://www.facebook.com/ayman.belhaj.10")
-                print("\033[1;31mthanks for visiting my facebook account \n\033[1;32mGood Bye\033[1;32m")
+                time.sleep(1)
+                print("\033[1;33m[fb]: \033[1;36mhttps://www.facebook.com/ayman.belhaj.10")
+                time.sleep(1)
+                print("\033[1;31mthanks for visiting my facebook account")
                 time.sleep(2)
                 reload()
             def open_my_github_account():
                 webbrowser.open_new("https://github.com/ayman1902")
-                print("\033[1;31mthanks for visiting my github account \n\033[1;32mGood Bye\033[1;32m")
+                time.sleep(1)
+                print("\033[1;33m[git]: \033[1;36mhttps://github.com/ayman1902")
+                time.sleep(1)
+                print("\033[1;31mthanks for visiting my github account")
                 time.sleep(2)
                 reload()
             def open_my_instagram_account():
                 webbrowser.open_new("instagram.com/ayman.bell/")
-                print("\033[1;31mthanks for visiting my instagram account \n\033[1;32mGood Bye\033[1;32m")
+                time.sleep(1)
+                print("\033[1;33m[Ig]: \033[1;36mhttps://instagram.com/ayman.bell/")
+                time.sleep(1)
+                print("\033[1;31mthanks for visiting my instagram account")
                 time.sleep(2)
                 reload()
             def open_the_officiel_page_of_DWM_in_fb():
                 webbrowser.open_new("https://www.facebook.com/dwebmaroc/")
-                print("\033[1;31mthanks for visiting the officiel page of DWM in fb \n\033[1;32mGood Bye\033[1;32m")
+                time.sleep(1)
+                print("\033[1;33m[DWM.Page]: \033[1;36mhttps://www.facebook.com/dwebmaroc/")
+                time.sleep(1)
+                print("\033[1;31mthanks for visiting the officiel page of DWM in fb")
                 time.sleep(2)
                 reload()
             if x == 99:
@@ -800,7 +816,7 @@ if __name__ == '__main__':
                     print("\033[1;32mgood luck :)")
                     time.sleep(5)
                     reload()
-                print('''   \033[1;33m###    ##    ## ##     ##    ###    ##    ## 
+    print('''   \033[1;33m###    ##    ## ##     ##    ###    ##    ## 
   ## ##    ##  ##  ###   ###   ## ##   ###   ## 
  ##   ##    ####   #### ####  ##   ##  ####  ## 
 ##     ##    ##    ## ### ## ##     ## ## ## ## 
@@ -837,22 +853,34 @@ if __name__ == '__main__':
     #my accounts
     def open_my_facebook_account():
         webbrowser.open_new("https://www.facebook.com/ayman.belhaj.10")
-        print("\033[1;31mthanks for visiting my facebook account \n\033[1;32mGood Bye\033[1;32m")
+        time.sleep(1)
+        print("\033[1;33m[fb]: \033[1;36mhttps://www.facebook.com/ayman.belhaj.10")
+        time.sleep(1)
+        print("\033[1;31mthanks for visiting my facebook account ")
         time.sleep(2)
         reload()
     def open_my_github_account():
         webbrowser.open_new("https://github.com/ayman1902")
-        print("\033[1;31mthanks for visiting my github account \n\033[1;32mGood Bye\033[1;32m")
+        time.sleep(1)
+        print("\033[1;33m[git]: \033[1;36mhttps://github.com/ayman1902")
+        time.sleep(1)
+        print("\033[1;31mthanks for visiting my github account ")
         time.sleep(2)
         reload()
     def open_my_instagram_account():
         webbrowser.open_new("instagram.com/ayman.bell/")
-        print("\033[1;31mthanks for visiting my instagram account \n\033[1;32mGood Bye\033[1;32m")
+        time.sleep(1)
+        print("\033[1;33m[Ig]: \033[1;36mhttps://instagram.com/ayman.bell/")
+        time.sleep(1)
+        print("\033[1;31mthanks for visiting my instagram account")
         time.sleep(2)
         reload()
     def open_the_officiel_page_of_DWM_in_fb():
         webbrowser.open_new("https://www.facebook.com/dwebmaroc/")
-        print("\033[1;31mthanks for visiting the officiel page of DWM in fb \n\033[1;32mGood Bye\033[1;32m")
+        time.sleep(1)
+        print("\033[1;33m[DWM.Page]: \033[1;36mhttps://www.facebook.com/dwebmaroc/")
+        time.sleep(1)
+        print("\033[1;31mthanks for visiting the officiel page of DWM in fb")
         time.sleep(2)
         reload()
     if x == 99:
