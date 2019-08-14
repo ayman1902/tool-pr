@@ -64,7 +64,7 @@ if __name__ == '__main__':
 \033[34;1m[10]\033[1;32m:\033[35;1m Follow my account {\033[1;31mfacebook\033[35;1m}
 \033[34;1m[20]\033[1;32m:\033[35;1m Follow my account on {\033[1;32mgithub\033[35;1m}\033[1;31m/\033[34;1m[99]\033[1;32m:\033[1;33mReload
 \033[34;1m[30]\033[1;32m:\033[35;1m Follow my account on {\033[1;33minstagram\033[35;1m}\033[1;31m/\033[34;1m[0]\033[1;32m:\033[1;33mEXIT
-\033[34;1m[\033[1;32m7777\033[34;1m]\033[1;32m:\033[35;1m Followé The officiel page of\033[1;31m DEEP WEB MAROC\033[35;1m in facebook
+\033[34;1m[\033[1;32m7777\033[34;1m]\033[1;32m:\033[35;1mFollow The officiel page of\033[1;31m DEEP WEB MAROC\033[35;1m in facebook
 \033[1;36m|==============================================\033[1;36m| 
 \033[1;36m|  \033[1;33m       thanks for the best groups:          \033[1;36m| 
 \033[1;36m|  \033[34;1m [ DWM +18 ] [ HK-G ] [ TM78 ] [MCT] [MKT] \033[1;36m |  
