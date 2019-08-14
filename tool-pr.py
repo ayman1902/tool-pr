@@ -56,6 +56,10 @@ if __name__ == '__main__':
             print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
             time.sleep(3)
             reload()
+            print("\n" * 6)
+        print("\033[1;31m                      Starting tool-pr")
+        time.sleep(3)
+        clear()
     loading()
     #function reload
     def reload():
