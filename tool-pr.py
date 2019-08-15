@@ -56,8 +56,8 @@ if __name__ == '__main__':
             print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
             time.sleep(3)
             reload()
-            print("\n" * 6)
-        print("\033[1;31m                      Starting tool-pr")
+        print("\n" * 6)
+        print("\033[1;31m                Starting tool-pr...")
         time.sleep(3)
         clear()
     loading()
@@ -102,22 +102,33 @@ if __name__ == '__main__':
                 reload()
             # my accounts
             def open_my_facebook_account():
-                webbrowser.open_new("https://www.facebook.com/ayman.belhaj.10")
-                time.sleep(1)
-                print("\033[1;33m[fb]: \033[1;36mhttps://www.facebook.com/ayman.belhaj.10")
-                time.sleep(1)
-                print("\033[1;31mthanks for visiting my facebook account")
-                time.sleep(2)
-                reload()
+                try:
+                 webbrowser.open_new("https://www.facebook.com/ayman.belhaj.10")
+                 time.sleep(1)
+                 print("\033[1;33m[fb]: \033[1;36mhttps://www.facebook.com/ayman.belhaj.10")
+                 time.sleep(1)
+                 print("\033[1;31mthanks for visiting my facebook account")
+                 time.sleep(2)
+                 reload()
+                except Exception as e:
+                    print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
+                    time.sleep(3)
+                    reload()
             def open_my_github_account():
-                webbrowser.open_new("https://github.com/ayman1902")
-                time.sleep(1)
-                print("\033[1;33m[git]: \033[1;36mhttps://github.com/ayman1902")
-                time.sleep(1)
-                print("\033[1;31mthanks for visiting my github account")
-                time.sleep(2)
-                reload()
+                try:
+                 webbrowser.open_new("https://github.com/ayman1902")
+                 time.sleep(1)
+                 print("\033[1;33m[git]: \033[1;36mhttps://github.com/ayman1902")
+                 time.sleep(1)
+                 print("\033[1;31mthanks for visiting my github account")
+                 time.sleep(2)
+                 reload()
+                except Exception as e:
+                    print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
+                    time.sleep(3)
+                    reload()
             def open_my_instagram_account():
+               try:
                 webbrowser.open_new("instagram.com/ayman.bell/")
                 time.sleep(1)
                 print("\033[1;33m[Ig]: \033[1;36mhttps://instagram.com/ayman.bell/")
@@ -125,7 +136,12 @@ if __name__ == '__main__':
                 print("\033[1;31mthanks for visiting my instagram account")
                 time.sleep(2)
                 reload()
+               except Exception as e:
+                   print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
+                   time.sleep(3)
+                   reload()
             def open_the_officiel_page_of_DWM_in_fb():
+               try:
                 webbrowser.open_new("https://www.facebook.com/dwebmaroc/")
                 time.sleep(1)
                 print("\033[1;33m[DWM.Page]: \033[1;36mhttps://www.facebook.com/dwebmaroc/")
@@ -133,6 +149,10 @@ if __name__ == '__main__':
                 print("\033[1;31mthanks for visiting the officiel page of DWM in fb")
                 time.sleep(2)
                 reload()
+               except Exception as e:
+                   print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
+                   time.sleep(3)
+                   reload()
             if x == 99:
                 reload()
             if x == 10:
@@ -938,6 +958,7 @@ if __name__ == '__main__':
         reload()
     # my accounts
     def open_my_facebook_account():
+       try:
         webbrowser.open_new("https://www.facebook.com/ayman.belhaj.10")
         time.sleep(1)
         print("\033[1;33m[fb]: \033[1;36mhttps://www.facebook.com/ayman.belhaj.10")
@@ -945,7 +966,12 @@ if __name__ == '__main__':
         print("\033[1;31mthanks for visiting my facebook account")
         time.sleep(2)
         reload()
+       except Exception as e:
+           print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
+           time.sleep(3)
+           reload()
     def open_my_github_account():
+       try:
         webbrowser.open_new("https://github.com/ayman1902")
         time.sleep(1)
         print("\033[1;33m[git]: \033[1;36mhttps://github.com/ayman1902")
@@ -953,7 +979,12 @@ if __name__ == '__main__':
         print("\033[1;31mthanks for visiting my github account")
         time.sleep(2)
         reload()
+       except Exception as e:
+           print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
+           time.sleep(3)
+           reload()
     def open_my_instagram_account():
+       try:
         webbrowser.open_new("instagram.com/ayman.bell/")
         time.sleep(1)
         print("\033[1;33m[Ig]: \033[1;36mhttps://instagram.com/ayman.bell/")
@@ -961,7 +992,12 @@ if __name__ == '__main__':
         print("\033[1;31mthanks for visiting my instagram account")
         time.sleep(2)
         reload()
+       except Exception as e:
+           print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
+           time.sleep(3)
+           reload()
     def open_the_officiel_page_of_DWM_in_fb():
+       try:
         webbrowser.open_new("https://www.facebook.com/dwebmaroc/")
         time.sleep(1)
         print("\033[1;33m[DWM.Page]: \033[1;36mhttps://www.facebook.com/dwebmaroc/")
@@ -969,6 +1005,10 @@ if __name__ == '__main__':
         print("\033[1;31mthanks for visiting the officiel page of DWM in fb")
         time.sleep(2)
         reload()
+       except Exception as e:
+           print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
+           time.sleep(3)
+           reload()
     if x == 99:
         reload()
     if x == 10:
