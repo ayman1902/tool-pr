@@ -5,8 +5,13 @@ if __name__ == '__main__':
     import os
     #function clear
     def clear():
-        os.system('clear')
-        time.sleep(0.5)
+        try:
+         os.system('clear')
+         time.sleep(0.5)
+        except Exception as e:
+            print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
+            time.sleep(3)
+            reload()
     #chargement de donné
     def loading():
         clear()
@@ -15,31 +20,35 @@ if __name__ == '__main__':
         time.sleep(0.4)
         clear()
         print("\n" * 5)
-        print("        \033[1;32mPlease Wait ===+[\033[34;1m-->        \033[1;32m    ]")
+        print("        \033[1;32mPlease Wait ===+[\033[34;1m-->        \033[1;32m     ]")
         time.sleep(0.4)
         clear()
         print("\n" * 5)
-        print("        \033[1;32mPlease Wait ===+[\033[34;1m --->      \033[1;32m    ]")
+        print("        \033[1;32mPlease Wait ===+[\033[34;1m  --->     \033[1;32m     ]")
         time.sleep(0.4)
         clear()
         print("\n" * 5)
-        print("        \033[1;32mPlease Wait ===+[\033[34;1m   --->    \033[1;32m    ]")
+        print("        \033[1;32mPlease Wait ===+[\033[34;1m    --->   \033[1;32m     ]")
         time.sleep(0.4)
         clear()
         print("\n" * 5)
-        print("        \033[1;32mPlease Wait ===+[\033[34;1m     --->  \033[1;32m    ]")
+        print("        \033[1;32mPlease Wait ===+[\033[34;1m      ---> \033[1;32m     ]")
         time.sleep(0.4)
         clear()
         print("\n" * 5)
-        print("        \033[1;32mPlease Wait ===+[\033[34;1m       --->\033[1;32m    ]")
+        print("        \033[1;32mPlease Wait ===+[\033[34;1m        --->\033[1;32m    ]")
         time.sleep(0.4)
         clear()
         print("\n" * 5)
-        print("        \033[1;32mPlease Wait ===+[\033[34;1m         --->\033[1;32m  ]")
+        print("        \033[1;32mPlease Wait ===+[\033[34;1m          --->\033[1;32m  ]")
         time.sleep(0.4)
         clear()
         print("\n" * 5)
-        print("        \033[1;32mPlease Wait ===+[\033[34;1m           --->\033[1;32m]")
+        print("        \033[1;32mPlease Wait ===+[\033[34;1m            --->\033[1;32m]")
+        time.sleep(0.4)
+        clear()
+        print("\n" * 5)
+        print("        \033[1;32mPlease Wait ===+[\033[34;1m===============>\033[1;32m]")
         time.sleep(0.4)
         clear()
         print("\n" * 5)
@@ -60,15 +69,44 @@ if __name__ == '__main__':
         print("\033[1;31m                Starting tool-pr...")
         time.sleep(3)
         clear()
+    def loading_for_reloade():
+            clear()
+            print("\n" * 5)
+            print(
+                "\n\033[1;33m[\033[34;1m*\033[1;33m]\033[1;31mWelcom on\033[35;1m{\033[1;32mtool-pr\033[35;1m}\033[1;31mProgrammable by[\033[34;1mAyman Belhaj\033[1;31m]")
+            time.sleep(1)
+            try:
+                print("\033[34;1m")
+                clear()
+                print("\n" * 4)
+                x = str(input("  Press Enter To Continue : "))
+                if x == x:
+                    clear()
+            except Exception as e:
+                print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
+                time.sleep(3)
+                reload()
+            print("\n" * 6)
+            print("\033[1;31m                Restarting tool-pr...")
+            time.sleep(3)
+            clear()
     loading()
     #function reload
     def reload():
         if __name__ == '__main__':
             import sys
             import webbrowser
-            clear()
-            print('''\033[1;31m
-#####  ####   ####  #       #####  #####  
+            loading_for_reloade()
+            print('''   \033[1;33m###    ##    ## ##     ##    ###    ##    ## 
+  ## ##    ##  ##  ###   ###   ## ##   ###   ## 
+ ##   ##    ####   #### ####  ##   ##  ####  ## 
+##     ##    ##    ## ### ## ##     ## ## ## ## 
+#########    ##    ##     ## ######### ##  #### 
+##     ##    ##    ##     ## ##     ## ##   ### 
+##     ##    ##    ##     ## ##     ## ##    ##''')
+            time.sleep(0.4)
+            print('''\033[1;36m===============================================\033[1;m \033[1;31m''')
+            print('''\033[1;31m#####  ####   ####  #       #####  #####  
   #   #    # #    # #       #    # #    # 
   #   #    # #    # # ##### #    # #    # 
   #   #    # #    # #       #####  #####  
@@ -77,12 +115,17 @@ if __name__ == '__main__':
             time.sleep(0.4)
             print('''\033[1;32m===============================================''')
             time.sleep(0.4)
-            print('''\033[1;33m[\033[34;1m*\033[1;33m]\033[1;31mWelcom on\033[35;1m{\033[1;32mtool-pr\033[35;1m}\033[1;31mProgrammable by[\033[34;1mAyman Belhaj\033[1;31m]
-\033[34;1m[10]\033[1;32m:\033[35;1m Follow my account {\033[1;31mfacebook\033[35;1m}
-\033[34;1m[20]\033[1;32m:\033[35;1m Follow my account on {\033[1;32mgithub\033[35;1m}\033[1;31m/\033[34;1m[99]\033[1;32m:\033[1;33mReload
-\033[34;1m[30]\033[1;32m:\033[35;1m Follow my account on {\033[1;33minstagram\033[35;1m}\033[1;31m/\033[34;1m[0]\033[1;32m:\033[1;33mEXIT
-\033[34;1m[\033[1;32m7777\033[34;1m]\033[1;32m:\033[35;1mFollow The officiel page of\033[1;31m DEEP WEB MAROC\033[35;1m in facebook
-\033[1;36m|==============================================\033[1;36m| 
+            print('''\033[1;33m[\033[34;1m*\033[1;33m]\033[1;31mWelcom on\033[35;1m{\033[1;32mtool-pr\033[35;1m}\033[1;31mProgrammable by[\033[34;1mAyman Belhaj\033[1;31m]''')
+            time.sleep(0.4)
+            print('''\033[34;1m[10]\033[1;32m:\033[35;1m Follow my account {\033[1;31mfacebook\033[35;1m}''')
+            time.sleep(0.4)
+            print('''\033[34;1m[20]\033[1;32m:\033[35;1m Follow my account on {\033[1;32mgithub\033[35;1m}\033[1;31m/\033[34;1m[99]\033[1;32m:\033[1;33mReload''')
+            time.sleep(0.4)
+            print('''\033[34;1m[30]\033[1;32m:\033[35;1m Follow my account on {\033[1;33minstagram\033[35;1m}\033[1;31m/\033[34;1m[0]\033[1;32m:\033[1;33mEXIT''')
+            time.sleep(0.4)
+            print('''\033[34;1m[\033[1;32m7777\033[34;1m]\033[1;32m:\033[35;1mFollow The officiel page of\033[1;31m DEEP WEB MAROC\033[35;1m in facebook''')
+            time.sleep(0.4)
+            print('''\033[1;36m|==============================================\033[1;36m| 
 \033[1;36m|  \033[1;33m       thanks for the best groups:          \033[1;36m| 
 \033[1;36m|  \033[34;1m [ DWM +18 ] [ HK-G ] [ TM78 ] [MCT] [MKT] \033[1;36m |  
 \033[1;36m|==============================================| ''')
@@ -92,9 +135,12 @@ if __name__ == '__main__':
             print("\033[1;32mnow you are in 1bac\033[1;32m")
             time.sleep(0.4)
             print("\033[34;1m[1]\033[1;32m:\033[35;1mSMB     \033[34;1m[3]\033[1;32m:\033[35;1mPC")
+            time.sleep(0.4)
             print("\033[34;1m[2]\033[1;32m:\033[35;1mSMA     \033[34;1m[4]\033[1;32m:\033[35;1mSVT")
+            time.sleep(0.4)
             print("\033[34;1m[5]\033[1;32m:\033[35;1mI am in 2bac")
             try:
+                time.sleep(0.4)
                 x = int(input("choose ==>"))
             except Exception as e:
                 print("\033[1;31mError \033[34;1m: \033[1;32m"+str(e))
@@ -112,7 +158,7 @@ if __name__ == '__main__':
                  reload()
                 except Exception as e:
                     print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
-                    time.sleep(3)
+                    time.sleep(4)
                     reload()
             def open_my_github_account():
                 try:
@@ -121,11 +167,11 @@ if __name__ == '__main__':
                  print("\033[1;33m[git]: \033[1;36mhttps://github.com/ayman1902")
                  time.sleep(1)
                  print("\033[1;31mthanks for visiting my github account")
-                 time.sleep(2)
+                 time.sleep(3)
                  reload()
                 except Exception as e:
                     print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
-                    time.sleep(3)
+                    time.sleep(4)
                     reload()
             def open_my_instagram_account():
                try:
@@ -134,11 +180,11 @@ if __name__ == '__main__':
                 print("\033[1;33m[Ig]: \033[1;36mhttps://instagram.com/ayman.bell/")
                 time.sleep(1)
                 print("\033[1;31mthanks for visiting my instagram account")
-                time.sleep(2)
+                time.sleep(3)
                 reload()
                except Exception as e:
                    print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
-                   time.sleep(3)
+                   time.sleep(4)
                    reload()
             def open_the_officiel_page_of_DWM_in_fb():
                try:
@@ -147,7 +193,7 @@ if __name__ == '__main__':
                 print("\033[1;33m[DWM.Page]: \033[1;36mhttps://www.facebook.com/dwebmaroc/")
                 time.sleep(1)
                 print("\033[1;31mthanks for visiting the officiel page of DWM in fb")
-                time.sleep(2)
+                time.sleep(4)
                 reload()
                except Exception as e:
                    print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
@@ -175,9 +221,11 @@ if __name__ == '__main__':
                 print("\033[1;32mnow you are in 2bac\033[1;32m")
                 time.sleep(0.4)
                 print("\033[34;1m[1]\033[1;32m:\033[35;1mSMB     \033[34;1m[3]\033[1;32m:\033[35;1mPC")
+                time.sleep(0.4)
                 print("\033[34;1m[2]\033[1;32m:\033[35;1mSMA     \033[34;1m[4]\033[1;32m:\033[35;1mSVT")
                 try:
-                   y = int(input("choose ==>"))
+                 time.sleep(0.4)
+                 y = int(input("choose ==>"))
                 except Exception as e:
                     print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
                     time.sleep(3)
@@ -933,12 +981,21 @@ if __name__ == '__main__':
     time.sleep(0.4)
     print('''\033[1;32m===============================================''')
     time.sleep(0.4)
-    print('''\033[1;33m[\033[34;1m*\033[1;33m]\033[1;31mWelcom on\033[35;1m{\033[1;32mtool-pr\033[35;1m}\033[1;31mProgrammable by[\033[34;1mAyman Belhaj\033[1;31m]
-\033[34;1m[10]\033[1;32m:\033[35;1m Follow my account {\033[1;31mfacebook\033[35;1m}
-\033[34;1m[20]\033[1;32m:\033[35;1m Follow my account on {\033[1;32mgithub\033[35;1m}\033[1;31m/\033[34;1m[99]\033[1;32m:\033[1;33mReload
-\033[34;1m[30]\033[1;32m:\033[35;1m Follow my account on {\033[1;33minstagram\033[35;1m}\033[1;31m/\033[34;1m[0]\033[1;32m:\033[1;33mEXIT
-\033[34;1m[\033[1;32m7777\033[34;1m]\033[1;32m:\033[35;1m Follow The officiel page of\033[1;31m DEEP WEB MAROC\033[35;1m in facebook
-\033[1;36m|==============================================\033[1;36m| 
+    print(
+        '''\033[1;33m[\033[34;1m*\033[1;33m]\033[1;31mWelcom on\033[35;1m{\033[1;32mtool-pr\033[35;1m}\033[1;31mProgrammable by[\033[34;1mAyman Belhaj\033[1;31m]''')
+    time.sleep(0.4)
+    print('''\033[34;1m[10]\033[1;32m:\033[35;1m Follow my account {\033[1;31mfacebook\033[35;1m}''')
+    time.sleep(0.4)
+    print(
+        '''\033[34;1m[20]\033[1;32m:\033[35;1m Follow my account on {\033[1;32mgithub\033[35;1m}\033[1;31m/\033[34;1m[99]\033[1;32m:\033[1;33mReload''')
+    time.sleep(0.4)
+    print(
+        '''\033[34;1m[30]\033[1;32m:\033[35;1m Follow my account on {\033[1;33minstagram\033[35;1m}\033[1;31m/\033[34;1m[0]\033[1;32m:\033[1;33mEXIT''')
+    time.sleep(0.4)
+    print(
+        '''\033[34;1m[\033[1;32m7777\033[34;1m]\033[1;32m:\033[35;1mFollow The officiel page of\033[1;31m DEEP WEB MAROC\033[35;1m in facebook''')
+    time.sleep(0.4)
+    print('''\033[1;36m|==============================================\033[1;36m| 
 \033[1;36m|  \033[1;33m       thanks for the best groups:          \033[1;36m| 
 \033[1;36m|  \033[34;1m [ DWM +18 ] [ HK-G ] [ TM78 ] [MCT] [MKT] \033[1;36m |  
 \033[1;36m|==============================================| ''')
@@ -948,9 +1005,12 @@ if __name__ == '__main__':
     print("\033[1;32mnow you are in 1bac\033[1;32m")
     time.sleep(0.4)
     print("\033[34;1m[1]\033[1;32m:\033[35;1mSMB     \033[34;1m[3]\033[1;32m:\033[35;1mPC")
+    time.sleep(0.4)
     print("\033[34;1m[2]\033[1;32m:\033[35;1mSMA     \033[34;1m[4]\033[1;32m:\033[35;1mSVT")
+    time.sleep(0.4)
     print("\033[34;1m[5]\033[1;32m:\033[35;1mI am in 2bac")
     try:
+        time.sleep(0.4)
         x = int(input("choose ==>"))
     except Exception as e:
         print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
@@ -958,57 +1018,57 @@ if __name__ == '__main__':
         reload()
     # my accounts
     def open_my_facebook_account():
-       try:
-        webbrowser.open_new("https://www.facebook.com/ayman.belhaj.10")
-        time.sleep(1)
-        print("\033[1;33m[fb]: \033[1;36mhttps://www.facebook.com/ayman.belhaj.10")
-        time.sleep(1)
-        print("\033[1;31mthanks for visiting my facebook account")
-        time.sleep(2)
-        reload()
-       except Exception as e:
-           print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
-           time.sleep(3)
-           reload()
+        try:
+            webbrowser.open_new("https://www.facebook.com/ayman.belhaj.10")
+            time.sleep(1)
+            print("\033[1;33m[fb]: \033[1;36mhttps://www.facebook.com/ayman.belhaj.10")
+            time.sleep(1)
+            print("\033[1;31mthanks for visiting my facebook account")
+            time.sleep(4)
+            reload()
+        except Exception as e:
+            print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
+            time.sleep(3)
+            reload()
     def open_my_github_account():
-       try:
-        webbrowser.open_new("https://github.com/ayman1902")
-        time.sleep(1)
-        print("\033[1;33m[git]: \033[1;36mhttps://github.com/ayman1902")
-        time.sleep(1)
-        print("\033[1;31mthanks for visiting my github account")
-        time.sleep(2)
-        reload()
-       except Exception as e:
-           print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
-           time.sleep(3)
-           reload()
+        try:
+            webbrowser.open_new("https://github.com/ayman1902")
+            time.sleep(1)
+            print("\033[1;33m[git]: \033[1;36mhttps://github.com/ayman1902")
+            time.sleep(1)
+            print("\033[1;31mthanks for visiting my github account")
+            time.sleep(4)
+            reload()
+        except Exception as e:
+            print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
+            time.sleep(3)
+            reload()
     def open_my_instagram_account():
-       try:
-        webbrowser.open_new("instagram.com/ayman.bell/")
-        time.sleep(1)
-        print("\033[1;33m[Ig]: \033[1;36mhttps://instagram.com/ayman.bell/")
-        time.sleep(1)
-        print("\033[1;31mthanks for visiting my instagram account")
-        time.sleep(2)
-        reload()
-       except Exception as e:
-           print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
-           time.sleep(3)
-           reload()
+        try:
+            webbrowser.open_new("instagram.com/ayman.bell/")
+            time.sleep(1)
+            print("\033[1;33m[Ig]: \033[1;36mhttps://instagram.com/ayman.bell/")
+            time.sleep(1)
+            print("\033[1;31mthanks for visiting my instagram account")
+            time.sleep(4)
+            reload()
+        except Exception as e:
+            print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
+            time.sleep(3)
+            reload()
     def open_the_officiel_page_of_DWM_in_fb():
-       try:
-        webbrowser.open_new("https://www.facebook.com/dwebmaroc/")
-        time.sleep(1)
-        print("\033[1;33m[DWM.Page]: \033[1;36mhttps://www.facebook.com/dwebmaroc/")
-        time.sleep(1)
-        print("\033[1;31mthanks for visiting the officiel page of DWM in fb")
-        time.sleep(2)
-        reload()
-       except Exception as e:
-           print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
-           time.sleep(3)
-           reload()
+        try:
+            webbrowser.open_new("https://www.facebook.com/dwebmaroc/")
+            time.sleep(1)
+            print("\033[1;33m[DWM.Page]: \033[1;36mhttps://www.facebook.com/dwebmaroc/")
+            time.sleep(1)
+            print("\033[1;31mthanks for visiting the officiel page of DWM in fb")
+            time.sleep(4)
+            reload()
+        except Exception as e:
+            print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
+            time.sleep(3)
+            reload()
     if x == 99:
         reload()
     if x == 10:
@@ -1031,8 +1091,10 @@ if __name__ == '__main__':
         print("\033[1;32mnow you are in 2bac\033[1;32m")
         time.sleep(0.4)
         print("\033[34;1m[1]\033[1;32m:\033[35;1mSMB     \033[34;1m[3]\033[1;32m:\033[35;1mPC")
+        time.sleep(0.4)
         print("\033[34;1m[2]\033[1;32m:\033[35;1mSMA     \033[34;1m[4]\033[1;32m:\033[35;1mSVT")
         try:
+            time.sleep(0.4)
             y = int(input("choose ==>"))
         except Exception as e:
             print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
