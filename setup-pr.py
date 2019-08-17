@@ -244,7 +244,7 @@ if __name__ == '__main__':
                 if y == 7777:
                     open_the_officiel_page_of_DWM_in_fb()
                 if y != 0 and y != 1 and y != 2 and y != 3 and y != 4 and y != 10 and y != 20 and y != 30 and y != 7777:
-                    print("\033[1;32mError please retry the process")
+                    print("\033[1;31mError \033[34;1m: \033[1;32mplease retry the process")
                     time.sleep(2)
                     reload()
                 elif y == 1 or y == 2 or y == 3 or y == 4:
@@ -600,7 +600,7 @@ if __name__ == '__main__':
                 print("\033[1;36mGood Bye")
                 sys.exit()
             if x != 0 and x != 1 and x != 2 and x != 3 and x != 4 and x != 5 and x != 10 and x != 20 and x != 30 and x != 7777:
-                print("\033[1;32mError please retry the process")
+                print("\033[1;31mError \033[34;1m: \033[1;32mplease retry the process")
                 time.sleep(2)
                 reload()
             # 1bac éxaman réjonnal
@@ -1114,7 +1114,7 @@ if __name__ == '__main__':
         if y == 7777:
             open_the_officiel_page_of_DWM_in_fb()
         if y != 0 and y != 1 and y != 2 and y != 3 and y != 4 and y != 10 and y != 20 and y != 30 and y != 7777:
-            print("\033[1;32mError please retry the process")
+            print("\033[1;31mError \033[34;1m: \033[1;32mplease retry the process")
             time.sleep(2)
             reload()
         elif y == 1 or y == 2 or y == 3 or y == 4:
@@ -1470,7 +1470,7 @@ if __name__ == '__main__':
         print("\033[1;36mGood Bye")
         sys.exit()
     if x != 0 and x != 1 and x != 2 and x != 3 and x != 4 and x != 5 and x != 10 and x != 20 and x != 30 and x != 7777:
-        print("\033[1;32mError please retry the process")
+        print("\033[1;31mError \033[34;1m: \033[1;32mplease retry the process")
         time.sleep(2)
         reload()
     # 1bac éxaman réjonnal
