@@ -58,8 +58,8 @@ if __name__ == '__main__':
          print("\033[34;1m")
          clear()
          print("\n" * 4)
-         x = str(input("  Press Enter To Continue : "))
-         if x == x:
+         x = str(input("  Press Any KEY To Continue : "))
+         if x == None:
           clear()
         except Exception as e:
             print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
@@ -79,8 +79,8 @@ if __name__ == '__main__':
                 print("\033[34;1m")
                 clear()
                 print("\n" * 4)
-                x = str(input("  Press Enter To Continue : "))
-                if x == x:
+                x = str(input("  Press Any KEY To Continue : "))
+                if x == None:
                     clear()
             except Exception as e:
                 print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
@@ -125,10 +125,10 @@ if __name__ == '__main__':
             time.sleep(0.4)
             print('''\033[34;1m[\033[1;32m7777\033[34;1m]\033[1;32m:\033[35;1mFollow The officiel page of\033[1;31m DEEP WEB MAROC\033[35;1m in facebook''')
             time.sleep(0.4)
-            print('''\033[1;36m|==============================================\033[1;36m| 
-\033[1;36m|  \033[1;33m       thanks for the best groups:          \033[1;36m| 
-\033[1;36m|  \033[34;1m [ DWM +18 ] [ HK-G ] [ TM78 ] [MCT] [MKT] \033[1;36m |  
-\033[1;36m|==============================================| ''')
+            print('''\033[1;36m###############################################\033[1;36m# 
+\033[1;36m#  \033[1;33m       thanks for the best groups:          \033[1;36m# 
+\033[1;36m#  \033[34;1m [ DWM +18 ] [ HK-G ] [ TM78 ] [MCT] [MKT] \033[1;36m #  
+\033[1;36m################################################ ''')
             time.sleep(0.4)
             print("\033[1;31mthis tool it's for the people who want to\033[1;31m ")
             print("\033[1;31mget closer to their goals and see their future\033[1;31m")
@@ -277,6 +277,32 @@ if __name__ == '__main__':
                         print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
                         time.sleep(3)
                         reload()
+                    #les mentions
+                    finally:
+                        if moyen_géneral_re1 < 12 and moyen_géneral_re1 >= 10:
+                            time.sleep(1)
+                            print("\033[1;31m##################################")
+                            print("#     \033[34;1myour mention is \033[1;33mpassable   \033[1;31m#")
+                            print("\033[1;31m##################################")
+                            time.sleep(1)
+                        elif moyen_géneral_re1 < 14 and moyen_géneral_re1 >= 12:
+                            time.sleep(1)
+                            print("\033[1;31m##################################")
+                            print("#   \033[34;1myour mention is \033[1;33massez bien   \033[1;31m#")
+                            print("\033[1;31m##################################")
+                            time.sleep(1)
+                        elif moyen_géneral_re1 < 16 and moyen_géneral_re1 >= 14:
+                            time.sleep(1)
+                            print("\033[1;31m##################################")
+                            print("#      \033[34;1myour mention is \033[1;33mbien      \033[1;31m#")
+                            print("\033[1;31m##################################")
+                            time.sleep(1)
+                        elif moyen_géneral_re1 <= 20 and moyen_géneral_re1 >= 16:
+                            time.sleep(1)
+                            print("\033[1;31m##################################")
+                            print("#    \033[34;1myour mention is \033[1;33mtrès bien   \033[1;31m#")
+                            print("\033[1;31m##################################")
+                            time.sleep(1)
                 elif y == 2:
                     # 2bac éxaman nationnal SMA
                     try:
@@ -305,6 +331,32 @@ if __name__ == '__main__':
                         print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
                         time.sleep(3)
                         reload()
+                    #les mentions
+                    finally:
+                        if moyen_géneral_re2 < 12 and moyen_géneral_re2 >= 10:
+                            time.sleep(1)
+                            print("\033[1;31m##################################")
+                            print("#     \033[34;1myour mention is \033[1;33mpassable   \033[1;31m#")
+                            print("\033[1;31m##################################")
+                            time.sleep(1)
+                        elif moyen_géneral_re2 < 14 and moyen_géneral_re2 >= 12:
+                            time.sleep(1)
+                            print("\033[1;31m##################################")
+                            print("#   \033[34;1myour mention is \033[1;33massez bien   \033[1;31m#")
+                            print("\033[1;31m##################################")
+                            time.sleep(1)
+                        elif moyen_géneral_re2 < 16 and moyen_géneral_re2 >= 14:
+                            time.sleep(1)
+                            print("\033[1;31m##################################")
+                            print("#      \033[34;1myour mention is \033[1;33mbien      \033[1;31m#")
+                            print("\033[1;31m##################################")
+                            time.sleep(1)
+                        elif moyen_géneral_re2 <= 20 and moyen_géneral_re2 >= 16:
+                            time.sleep(1)
+                            print("\033[1;31m##################################")
+                            print("#    \033[34;1myour mention is \033[1;33mtrès bien   \033[1;31m#")
+                            print("\033[1;31m##################################")
+                            time.sleep(1)
                 # les seuil des écoles pour sm
                 ENCG  = 13.4
                 ENSA= 12
@@ -411,6 +463,32 @@ if __name__ == '__main__':
                         print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
                         time.sleep(3)
                         reload()
+                    # les mentions
+                    finally:
+                        if moyen_géneral_re3 < 12 and moyen_géneral_re3 >= 10:
+                            time.sleep(1)
+                            print("\033[1;31m##################################")
+                            print("#     \033[34;1myour mention is \033[1;33mpassable   \033[1;31m#")
+                            print("\033[1;31m##################################")
+                            time.sleep(1)
+                        elif moyen_géneral_re3 < 14 and moyen_géneral_re3 >= 12:
+                            time.sleep(1)
+                            print("\033[1;31m##################################")
+                            print("#   \033[34;1myour mention is \033[1;33massez bien   \033[1;31m#")
+                            print("\033[1;31m##################################")
+                            time.sleep(1)
+                        elif moyen_géneral_re3 < 16 and moyen_géneral_re3 >= 14:
+                            time.sleep(1)
+                            print("\033[1;31m##################################")
+                            print("#      \033[34;1myour mention is \033[1;33mbien      \033[1;31m#")
+                            print("\033[1;31m##################################")
+                            time.sleep(1)
+                        elif moyen_géneral_re3 <= 20 and moyen_géneral_re3 >= 16:
+                            time.sleep(1)
+                            print("\033[1;31m##################################")
+                            print("#    \033[34;1myour mention is \033[1;33mtrès bien   \033[1;31m#")
+                            print("\033[1;31m##################################")
+                            time.sleep(1)
                     # les seuil des écoles pour spc
                 ENCG = 15.4
                 ENSA = 15.4
@@ -518,6 +596,32 @@ if __name__ == '__main__':
                         print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
                         time.sleep(3)
                         reload()
+                    # les mentions
+                    finally:
+                        if moyen_géneral_re4 < 12 and moyen_géneral_re4 >= 10:
+                            time.sleep(1)
+                            print("\033[1;31m##################################")
+                            print("#     \033[34;1myour mention is \033[1;33mpassable   \033[1;31m#")
+                            print("\033[1;31m##################################")
+                            time.sleep(1)
+                        elif moyen_géneral_re4 < 14 and moyen_géneral_re4 >= 12:
+                            time.sleep(1)
+                            print("\033[1;31m##################################")
+                            print("#   \033[34;1myour mention is \033[1;33massez bien   \033[1;31m#")
+                            print("\033[1;31m##################################")
+                            time.sleep(1)
+                        elif moyen_géneral_re4 < 16 and moyen_géneral_re4 >= 14:
+                            time.sleep(1)
+                            print("\033[1;31m##################################")
+                            print("#      \033[34;1myour mention is \033[1;33mbien      \033[1;31m#")
+                            print("\033[1;31m##################################")
+                            time.sleep(1)
+                        elif moyen_géneral_re4 <= 20 and moyen_géneral_re4 >= 16:
+                            time.sleep(1)
+                            print("\033[1;31m##################################")
+                            print("#    \033[34;1myour mention is \033[1;33mtrès bien   \033[1;31m#")
+                            print("\033[1;31m##################################")
+                            time.sleep(1)
                     # les seuil des écoles pour svt
                     ENCG = 15.4
                     ENSA = 15.4
@@ -645,6 +749,32 @@ if __name__ == '__main__':
                     print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
                     time.sleep(3)
                     reload()
+                # les mentions
+                finally:
+                    if moyen_géneral_re1 < 12 and moyen_géneral_re1 >= 10:
+                        time.sleep(1)
+                        print("\033[1;31m##################################")
+                        print("#     \033[34;1myour mention is \033[1;33mpassable   \033[1;31m#")
+                        print("\033[1;31m##################################")
+                        time.sleep(1)
+                    elif moyen_géneral_re1 < 14 and moyen_géneral_re1 >= 12:
+                        time.sleep(1)
+                        print("\033[1;31m##################################")
+                        print("#   \033[34;1myour mention is \033[1;33massez bien   \033[1;31m#")
+                        print("\033[1;31m##################################")
+                        time.sleep(1)
+                    elif moyen_géneral_re1 < 16 and moyen_géneral_re1 >= 14:
+                        time.sleep(1)
+                        print("\033[1;31m##################################")
+                        print("#      \033[34;1myour mention is \033[1;33mbien      \033[1;31m#")
+                        print("\033[1;31m##################################")
+                        time.sleep(1)
+                    elif moyen_géneral_re1 <= 20 and moyen_géneral_re1 >= 16:
+                        time.sleep(1)
+                        print("\033[1;31m##################################")
+                        print("#    \033[34;1myour mention is \033[1;33mtrès bien   \033[1;31m#")
+                        print("\033[1;31m##################################")
+                        time.sleep(1)
             elif x == 2:
                 # 2bac éxaman nationnal SMA
                 try:
@@ -672,6 +802,32 @@ if __name__ == '__main__':
                     print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
                     time.sleep(3)
                     reload()
+                # les mentions
+                finally:
+                    if moyen_géneral_re2 < 12 and moyen_géneral_re2 >= 10:
+                        time.sleep(1)
+                        print("\033[1;31m##################################")
+                        print("#     \033[34;1myour mention is \033[1;33mpassable   \033[1;31m#")
+                        print("\033[1;31m##################################")
+                        time.sleep(1)
+                    elif moyen_géneral_re2 < 14 and moyen_géneral_re2 >= 12:
+                        time.sleep(1)
+                        print("\033[1;31m##################################")
+                        print("#   \033[34;1myour mention is \033[1;33massez bien   \033[1;31m#")
+                        print("\033[1;31m##################################")
+                        time.sleep(1)
+                    elif moyen_géneral_re2 < 16 and moyen_géneral_re2 >= 14:
+                        time.sleep(1)
+                        print("\033[1;31m##################################")
+                        print("#      \033[34;1myour mention is \033[1;33mbien      \033[1;31m#")
+                        print("\033[1;31m##################################")
+                        time.sleep(1)
+                    elif moyen_géneral_re2 <= 20 and moyen_géneral_re2 >= 16:
+                        time.sleep(1)
+                        print("\033[1;31m##################################")
+                        print("#    \033[34;1myour mention is \033[1;33mtrès bien   \033[1;31m#")
+                        print("\033[1;31m##################################")
+                        time.sleep(1)
                 # les seuil des écoles pour sm
             ENCG = 13.4
             ENSA = 12
@@ -778,6 +934,32 @@ if __name__ == '__main__':
                     print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
                     time.sleep(3)
                     reload()
+                # les mentions
+                finally:
+                    if moyen_géneral_re3 < 12 and moyen_géneral_re3 >= 10:
+                        time.sleep(1)
+                        print("\033[1;31m##################################")
+                        print("#     \033[34;1myour mention is \033[1;33mpassable   \033[1;31m#")
+                        print("\033[1;31m##################################")
+                        time.sleep(1)
+                    elif moyen_géneral_re3 < 14 and moyen_géneral_re3 >= 12:
+                        time.sleep(1)
+                        print("\033[1;31m##################################")
+                        print("#   \033[34;1myour mention is \033[1;33massez bien   \033[1;31m#")
+                        print("\033[1;31m##################################")
+                        time.sleep(1)
+                    elif moyen_géneral_re3 < 16 and moyen_géneral_re3 >= 14:
+                        time.sleep(1)
+                        print("\033[1;31m##################################")
+                        print("#      \033[34;1myour mention is \033[1;33mbien      \033[1;31m#")
+                        print("\033[1;31m##################################")
+                        time.sleep(1)
+                    elif moyen_géneral_re3 <= 20 and moyen_géneral_re3 >= 16:
+                        time.sleep(1)
+                        print("\033[1;31m##################################")
+                        print("#    \033[34;1myour mention is \033[1;33mtrès bien   \033[1;31m#")
+                        print("\033[1;31m##################################")
+                        time.sleep(1)
             # les seuil des écoles pour spc
             ENCG = 15.4
             ENSA = 15.4
@@ -885,6 +1067,32 @@ if __name__ == '__main__':
                     print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
                     time.sleep(3)
                     reload()
+                # les mentions
+                finally:
+                    if moyen_géneral_re4 < 12 and moyen_géneral_re4 >= 10:
+                        time.sleep(1)
+                        print("\033[1;31m##################################")
+                        print("#     \033[34;1myour mention is \033[1;33mpassable   \033[1;31m#")
+                        print("\033[1;31m##################################")
+                        time.sleep(1)
+                    elif moyen_géneral_re4 < 14 and moyen_géneral_re4 >= 12:
+                        time.sleep(1)
+                        print("\033[1;31m##################################")
+                        print("#   \033[34;1myour mention is \033[1;33massez bien   \033[1;31m#")
+                        print("\033[1;31m##################################")
+                        time.sleep(1)
+                    elif moyen_géneral_re4 < 16 and moyen_géneral_re4 >= 14:
+                        time.sleep(1)
+                        print("\033[1;31m##################################")
+                        print("#      \033[34;1myour mention is \033[1;33mbien      \033[1;31m#")
+                        print("\033[1;31m##################################")
+                        time.sleep(1)
+                    elif moyen_géneral_re4 <= 20 and moyen_géneral_re4 >= 16:
+                        time.sleep(1)
+                        print("\033[1;31m##################################")
+                        print("#    \033[34;1myour mention is \033[1;33mtrès bien   \033[1;31m#")
+                        print("\033[1;31m##################################")
+                        time.sleep(1)
                 ENCG = 15.4
                 ENSA = 15.4
                 ENA = 15.88
@@ -995,10 +1203,10 @@ if __name__ == '__main__':
     print(
         '''\033[34;1m[\033[1;32m7777\033[34;1m]\033[1;32m:\033[35;1mFollow The officiel page of\033[1;31m DEEP WEB MAROC\033[35;1m in facebook''')
     time.sleep(0.4)
-    print('''\033[1;36m|==============================================\033[1;36m| 
-\033[1;36m|  \033[1;33m       thanks for the best groups:          \033[1;36m| 
-\033[1;36m|  \033[34;1m [ DWM +18 ] [ HK-G ] [ TM78 ] [MCT] [MKT] \033[1;36m |  
-\033[1;36m|==============================================| ''')
+    print('''\033[1;36m###############################################\033[1;36m# 
+\033[1;36m#  \033[1;33m       thanks for the best groups:          \033[1;36m# 
+\033[1;36m#  \033[34;1m [ DWM +18 ] [ HK-G ] [ TM78 ] [MCT] [MKT] \033[1;36m #  
+\033[1;36m################################################ ''')
     time.sleep(0.4)
     print("\033[1;31mthis tool it's for the people who want to\033[1;31m ")
     print("\033[1;31mget closer to their goals and see their future\033[1;31m")
@@ -1147,6 +1355,32 @@ if __name__ == '__main__':
                 print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
                 time.sleep(3)
                 reload()
+            # les mentions
+            finally:
+                if moyen_géneral_re1 < 12 and moyen_géneral_re1 >= 10:
+                    time.sleep(1)
+                    print("\033[1;31m##################################")
+                    print("#     \033[34;1myour mention is \033[1;33mpassable   \033[1;31m#")
+                    print("\033[1;31m##################################")
+                    time.sleep(1)
+                elif moyen_géneral_re1 < 14 and moyen_géneral_re1 >= 12:
+                    time.sleep(1)
+                    print("\033[1;31m##################################")
+                    print("#   \033[34;1myour mention is \033[1;33massez bien   \033[1;31m#")
+                    print("\033[1;31m##################################")
+                    time.sleep(1)
+                elif moyen_géneral_re1 < 16 and moyen_géneral_re1 >= 14:
+                    time.sleep(1)
+                    print("\033[1;31m##################################")
+                    print("#      \033[34;1myour mention is \033[1;33mbien      \033[1;31m#")
+                    print("\033[1;31m##################################")
+                    time.sleep(1)
+                elif moyen_géneral_re1 <= 20 and moyen_géneral_re1 >= 16:
+                    time.sleep(1)
+                    print("\033[1;31m##################################")
+                    print("#    \033[34;1myour mention is \033[1;33mtrès bien   \033[1;31m#")
+                    print("\033[1;31m##################################")
+                    time.sleep(1)
         elif y == 2:
             # 2bac éxaman nationnal SMA
             try:
@@ -1175,6 +1409,32 @@ if __name__ == '__main__':
                 print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
                 time.sleep(3)
                 reload()
+            # les mentions
+            finally:
+                if moyen_géneral_re2 < 12 and moyen_géneral_re2 >= 10:
+                    time.sleep(1)
+                    print("\033[1;31m##################################")
+                    print("#     \033[34;1myour mention is \033[1;33mpassable   \033[1;31m#")
+                    print("\033[1;31m##################################")
+                    time.sleep(1)
+                elif moyen_géneral_re2 < 14 and moyen_géneral_re2 >= 12:
+                    time.sleep(1)
+                    print("\033[1;31m##################################")
+                    print("#   \033[34;1myour mention is \033[1;33massez bien   \033[1;31m#")
+                    print("\033[1;31m##################################")
+                    time.sleep(1)
+                elif moyen_géneral_re2 < 16 and moyen_géneral_re2 >= 14:
+                    time.sleep(1)
+                    print("\033[1;31m##################################")
+                    print("#      \033[34;1myour mention is \033[1;33mbien      \033[1;31m#")
+                    print("\033[1;31m##################################")
+                    time.sleep(1)
+                elif moyen_géneral_re2 <= 20 and moyen_géneral_re2 >= 16:
+                    time.sleep(1)
+                    print("\033[1;31m##################################")
+                    print("#    \033[34;1myour mention is \033[1;33mtrès bien   \033[1;31m#")
+                    print("\033[1;31m##################################")
+                    time.sleep(1)
         # les seuil des écoles pour sm
         ENCG = 13.4
         ENSA = 12
@@ -1281,6 +1541,32 @@ if __name__ == '__main__':
                 print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
                 time.sleep(3)
                 reload()
+            # les mentions
+            finally:
+                if moyen_géneral_re3 < 12 and moyen_géneral_re3 >= 10:
+                    time.sleep(1)
+                    print("\033[1;31m##################################")
+                    print("#     \033[34;1myour mention is \033[1;33mpassable   \033[1;31m#")
+                    print("\033[1;31m##################################")
+                    time.sleep(1)
+                elif moyen_géneral_re3 < 14 and moyen_géneral_re3 >= 12:
+                    time.sleep(1)
+                    print("\033[1;31m##################################")
+                    print("#   \033[34;1myour mention is \033[1;33massez bien   \033[1;31m#")
+                    print("\033[1;31m##################################")
+                    time.sleep(1)
+                elif moyen_géneral_re3 < 16 and moyen_géneral_re3 >= 14:
+                    time.sleep(1)
+                    print("\033[1;31m##################################")
+                    print("#      \033[34;1myour mention is \033[1;33mbien      \033[1;31m#")
+                    print("\033[1;31m##################################")
+                    time.sleep(1)
+                elif moyen_géneral_re3 <= 20 and moyen_géneral_re3 >= 16:
+                    time.sleep(1)
+                    print("\033[1;31m##################################")
+                    print("#    \033[34;1myour mention is \033[1;33mtrès bien   \033[1;31m#")
+                    print("\033[1;31m##################################")
+                    time.sleep(1)
             # les seuil des écoles pour spc
         ENCG = 15.4
         ENSA = 15.4
@@ -1388,6 +1674,32 @@ if __name__ == '__main__':
                 print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
                 time.sleep(3)
                 reload()
+            # les mentions
+            finally:
+                if moyen_géneral_re4 < 12 and moyen_géneral_re4 >= 10:
+                    time.sleep(1)
+                    print("\033[1;31m##################################")
+                    print("#     \033[34;1myour mention is \033[1;33mpassable   \033[1;31m#")
+                    print("\033[1;31m##################################")
+                    time.sleep(1)
+                elif moyen_géneral_re4 < 14 and moyen_géneral_re4 >= 12:
+                    time.sleep(1)
+                    print("\033[1;31m##################################")
+                    print("#   \033[34;1myour mention is \033[1;33massez bien   \033[1;31m#")
+                    print("\033[1;31m##################################")
+                    time.sleep(1)
+                elif moyen_géneral_re4 < 16 and moyen_géneral_re4 >= 14:
+                    time.sleep(1)
+                    print("\033[1;31m##################################")
+                    print("#      \033[34;1myour mention is \033[1;33mbien      \033[1;31m#")
+                    print("\033[1;31m##################################")
+                    time.sleep(1)
+                elif moyen_géneral_re4 <= 20 and moyen_géneral_re4 >= 16:
+                    time.sleep(1)
+                    print("\033[1;31m##################################")
+                    print("#    \033[34;1myour mention is \033[1;33mtrès bien   \033[1;31m#")
+                    print("\033[1;31m##################################")
+                    time.sleep(1)
             # les seuil des écoles pour svt
             ENCG = 15.4
             ENSA = 15.4
@@ -1516,6 +1828,32 @@ if __name__ == '__main__':
             print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
             time.sleep(3)
             reload()
+        # les mentions
+        finally:
+            if moyen_géneral_re1 < 12 and moyen_géneral_re1 >= 10:
+                time.sleep(1)
+                print("\033[1;31m##################################")
+                print("#     \033[34;1myour mention is \033[1;33mpassable   \033[1;31m#")
+                print("\033[1;31m##################################")
+                time.sleep(1)
+            elif moyen_géneral_re1 < 14 and moyen_géneral_re1 >= 12:
+                time.sleep(1)
+                print("\033[1;31m##################################")
+                print("#   \033[34;1myour mention is \033[1;33massez bien   \033[1;31m#")
+                print("\033[1;31m##################################")
+                time.sleep(1)
+            elif moyen_géneral_re1 < 16 and moyen_géneral_re1 >= 14:
+                time.sleep(1)
+                print("\033[1;31m##################################")
+                print("#      \033[34;1myour mention is \033[1;33mbien      \033[1;31m#")
+                print("\033[1;31m##################################")
+                time.sleep(1)
+            elif moyen_géneral_re1 <= 20 and moyen_géneral_re1 >= 16:
+                time.sleep(1)
+                print("\033[1;31m##################################")
+                print("#    \033[34;1myour mention is \033[1;33mtrès bien   \033[1;31m#")
+                print("\033[1;31m##################################")
+                time.sleep(1)
     elif x == 2:
         # 2bac éxaman nationnal SMA
         try:
@@ -1544,6 +1882,32 @@ if __name__ == '__main__':
             print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
             time.sleep(3)
             reload()
+        # les mentions
+        finally:
+            if moyen_géneral_re2 < 12 and moyen_géneral_re2 >= 10:
+                time.sleep(1)
+                print("\033[1;31m##################################")
+                print("#     \033[34;1myour mention is \033[1;33mpassable   \033[1;31m#")
+                print("\033[1;31m##################################")
+                time.sleep(1)
+            elif moyen_géneral_re2 < 14 and moyen_géneral_re2 >= 12:
+                time.sleep(1)
+                print("\033[1;31m##################################")
+                print("#   \033[34;1myour mention is \033[1;33massez bien   \033[1;31m#")
+                print("\033[1;31m##################################")
+                time.sleep(1)
+            elif moyen_géneral_re2 < 16 and moyen_géneral_re2 >= 14:
+                time.sleep(1)
+                print("\033[1;31m##################################")
+                print("#      \033[34;1myour mention is \033[1;33mbien      \033[1;31m#")
+                print("\033[1;31m##################################")
+                time.sleep(1)
+            elif moyen_géneral_re2 <= 20 and moyen_géneral_re2 >= 16:
+                time.sleep(1)
+                print("\033[1;31m##################################")
+                print("#    \033[34;1myour mention is \033[1;33mtrès bien   \033[1;31m#")
+                print("\033[1;31m##################################")
+                time.sleep(1)
         # les seuil des écoles pour sm
     ENCG = 13.4
     ENSA = 12
@@ -1650,6 +2014,32 @@ if __name__ == '__main__':
             print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
             time.sleep(3)
             reload()
+        # les mentions
+        finally:
+            if moyen_géneral_re3 < 12 and moyen_géneral_re3 >= 10:
+                time.sleep(1)
+                print("\033[1;31m##################################")
+                print("#     \033[34;1myour mention is \033[1;33mpassable   \033[1;31m#")
+                print("\033[1;31m##################################")
+                time.sleep(1)
+            elif moyen_géneral_re3 < 14 and moyen_géneral_re3 >= 12:
+                time.sleep(1)
+                print("\033[1;31m##################################")
+                print("#   \033[34;1myour mention is \033[1;33massez bien   \033[1;31m#")
+                print("\033[1;31m##################################")
+                time.sleep(1)
+            elif moyen_géneral_re3 < 16 and moyen_géneral_re3 >= 14:
+                time.sleep(1)
+                print("\033[1;31m##################################")
+                print("#      \033[34;1myour mention is \033[1;33mbien      \033[1;31m#")
+                print("\033[1;31m##################################")
+                time.sleep(1)
+            elif moyen_géneral_re3 <= 20 and moyen_géneral_re3 >= 16:
+                time.sleep(1)
+                print("\033[1;31m##################################")
+                print("#    \033[34;1myour mention is \033[1;33mtrès bien   \033[1;31m#")
+                print("\033[1;31m##################################")
+                time.sleep(1)
     # les seuil des écoles pour spc
     ENCG = 15.4
     ENSA = 15.4
@@ -1757,6 +2147,32 @@ if __name__ == '__main__':
             print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
             time.sleep(3)
             reload()
+        # les mentions
+        finally:
+            if moyen_géneral_re4 < 12 and moyen_géneral_re4 >= 10:
+                time.sleep(1)
+                print("\033[1;31m##################################")
+                print("#     \033[34;1myour mention is \033[1;33mpassable   \033[1;31m#")
+                print("\033[1;31m##################################")
+                time.sleep(1)
+            elif moyen_géneral_re4 < 14 and moyen_géneral_re4 >= 12:
+                time.sleep(1)
+                print("\033[1;31m##################################")
+                print("#   \033[34;1myour mention is \033[1;33massez bien   \033[1;31m#")
+                print("\033[1;31m##################################")
+                time.sleep(1)
+            elif moyen_géneral_re4 < 16 and moyen_géneral_re4 >= 14:
+                time.sleep(1)
+                print("\033[1;31m##################################")
+                print("#      \033[34;1myour mention is \033[1;33mbien      \033[1;31m#")
+                print("\033[1;31m##################################")
+                time.sleep(1)
+            elif moyen_géneral_re4 <= 20 and moyen_géneral_re4 >= 16:
+                time.sleep(1)
+                print("\033[1;31m##################################")
+                print("#    \033[34;1myour mention is \033[1;33mtrès bien   \033[1;31m#")
+                print("\033[1;31m##################################")
+                time.sleep(1)
         ENCG = 15.4
         ENSA = 15.4
         ENA = 15.88
