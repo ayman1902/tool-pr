@@ -6,7 +6,10 @@ if __name__ == '__main__':
     #function clear
     def clear():
         try:
-         os.system('clear')
+         if sys.platform in ["linux1","linux2"] :
+            os.system('clear')
+         else:
+             os.system('cls')
          time.sleep(0.5)
         except Exception as e:
             print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
@@ -90,9 +93,11 @@ if __name__ == '__main__':
             print("\033[1;31m                Restarting tool-pr...")
             time.sleep(3)
             clear()
+
+
     def next_bac_science_économique():
         loading_for_reloade()
-        print('''   \033[1;33m       _______  _        _        _______ 
+        print('''   \033[1;33m      _______  _        _        _______ 
 |\     /|(  ____ \( \      ( \      (  ___  )
 | )   ( || (    \/| (      | (      | (   ) |
 | (___) || (__    | |      | |      | |   | |
@@ -102,7 +107,7 @@ if __name__ == '__main__':
 |/     \|(_______/(_______/(_______/(_______)''')
         time.sleep(0.4)
         print('''\033[1;36m===============================================\033[1;m \033[1;31m''')
-        print('''_______  _______  _______ _________ _       
+        print(''' _______  _______  _______ _________ _       
 (  ___  )(  ____ \(  ___  )\__   __/( (    /|
 | (   ) || (    \/| (   ) |   ) (   |  \  ( |
 | (___) || |      | (___) |   | |   |   \ | |
@@ -148,6 +153,7 @@ if __name__ == '__main__':
             print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
             time.sleep(3)
             next_bac_science_économique()
+
         # my accounts
         def open_my_facebook_account():
             try:
@@ -204,10 +210,12 @@ if __name__ == '__main__':
                 print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
                 time.sleep(3)
                 reload()
+
         if x == 4:
             reload()
         if x == 5:
-            print("\033[1;32mtool-pr it's absolutement for branche SM{a-b}\nand SPC and SVT and SGT and SECO\nit can help the etudions of know there marque\nand there mention and the preselection schools\033[35;1m")
+            print(
+                "\033[1;32mtool-pr it's absolutement for branche SM{a-b}\nand SPC and SVT and SGT and SECO\nit can help the etudions of know there marque\nand there mention and the preselection schools\033[35;1m")
             time.sleep(6)
             next_bac_science_économique()
         if x == 99:
@@ -319,6 +327,7 @@ if __name__ == '__main__':
             # les seuil des écoles pour Science de gestion et comptabilité
             ENCG = 12.55
             ISCAE = 17.5
+            ISIT = 13.5
             if y == 1:
                 # acceptabiliter pour les écoles
                 print('''\033[35;1m=============================================== \033[34;1m''')
@@ -334,6 +343,12 @@ if __name__ == '__main__':
                 else:
                     time.sleep(0.4)
                     print("you are\033[1;33m refusing\033[34;1m in ISCAE")
+                if moyen_géneral1 >= ISIT:
+                    time.sleep(0.4)
+                    print("you are\033[1;31m preselected\033[34;1m in ISIT")
+                else:
+                    time.sleep(0.4)
+                    print("you are\033[1;33m refusing\033[34;1m in ISIT")
                 print("NB: les seuil par rapport à l'anné 2019")
                 print("\033[1;32mgood luck :)")
                 time.sleep(5)
@@ -397,6 +412,7 @@ if __name__ == '__main__':
             # les seuil des écoles pour Sciences économiques
             ENCG = 12.55
             ISCAE = 17
+            ISIT = 13.5
             # acceptabiliter pour les écoles
             if y == 2:
                 print('''\033[35;1m=============================================== \033[34;1m''')
@@ -412,6 +428,12 @@ if __name__ == '__main__':
                 else:
                     time.sleep(0.4)
                     print("you are\033[1;33m refusing\033[34;1m in ISCAE")
+                if moyen_géneral2 >= ISIT:
+                    time.sleep(0.4)
+                    print("you are\033[1;31m preselected\033[34;1m in ISIT")
+                else:
+                    time.sleep(0.4)
+                    print("you are\033[1;33m refusing\033[34;1m in ISIT")
                 print("NB: les seuil par rapport à l'anné 2019")
                 print("\033[1;32mgood luck :)")
                 time.sleep(5)
@@ -498,6 +520,7 @@ if __name__ == '__main__':
         # les seuil des écoles pour Science de gestion et comptabilité
         ENCG = 12.55
         ISCAE = 17.5
+        ISIT = 13.5
         if x == 1:
             # acceptabiliter pour les écoles
             print('''\033[35;1m=============================================== \033[34;1m''')
@@ -513,6 +536,12 @@ if __name__ == '__main__':
             else:
                 time.sleep(0.4)
                 print("you are\033[1;33m refusing\033[34;1m in ISCAE")
+            if moyen_géneral1 >= ISIT:
+                time.sleep(0.4)
+                print("you are\033[1;31m preselected\033[34;1m in ISIT")
+            else:
+                time.sleep(0.4)
+                print("you are\033[1;33m refusing\033[34;1m in ISIT")
             print("NB: les seuil par rapport à l'anné 2019")
             print("\033[1;32mgood luck :)")
             time.sleep(5)
@@ -576,6 +605,7 @@ if __name__ == '__main__':
         # les seuil des écoles pour Sciences économiques
         ENCG = 12.55
         ISCAE = 17
+        ISIT = 13.5
         if x == 2:
             # acceptabiliter pour les écoles
             print('''\033[35;1m=============================================== \033[34;1m''')
@@ -591,6 +621,12 @@ if __name__ == '__main__':
             else:
                 time.sleep(0.4)
                 print("you are\033[1;33m refusing\033[34;1m in ISCAE")
+            if moyen_géneral2 >= ISIT:
+                time.sleep(0.4)
+                print("you are\033[1;31m preselected\033[34;1m in ISIT")
+            else:
+                time.sleep(0.4)
+                print("you are\033[1;33m refusing\033[34;1m in ISIT")
             print("NB: les seuil par rapport à l'anné 2019")
             print("\033[1;32mgood luck :)")
             time.sleep(5)
@@ -602,7 +638,7 @@ if __name__ == '__main__':
             import sys
             import webbrowser
             loading_for_reloade()
-            print('''   \033[1;33m       _______  _        _        _______ 
+            print('''   \033[1;33m      _______  _        _        _______ 
 |\     /|(  ____ \( \      ( \      (  ___  )
 | )   ( || (    \/| (      | (      | (   ) |
 | (___) || (__    | |      | |      | |   | |
@@ -1682,7 +1718,7 @@ if __name__ == '__main__':
                     print("\033[1;32mgood luck :)")
                     time.sleep(5)
                     reload()
-    print('''   \033[1;33m       _______  _        _        _______ 
+    print('''   \033[1;33m      _______  _        _        _______ 
 |\     /|(  ____ \( \      ( \      (  ___  )
 | )   ( || (    \/| (      | (      | (   ) |
 | (___) || (__    | |      | |      | |   | |
