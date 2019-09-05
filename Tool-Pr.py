@@ -5,11 +5,8 @@ if __name__ == '__main__':
     import os
     #function clear
     def clear():
-        try:
-         if sys.platform in ["linux1","linux2"] :
-            os.system('clear')
-         else:
-             os.system('cls')
+        try
+         os.system('clear')
          time.sleep(0.5)
         except Exception as e:
             print("\033[1;31mError \033[34;1m: \033[1;32m" + str(e))
