@@ -5,7 +5,7 @@ if __name__ == '__main__':
     import os
     #function clear
     def clear():
-        try
+        try:
          os.system('clear')
          time.sleep(0.5)
         except Exception as e:
